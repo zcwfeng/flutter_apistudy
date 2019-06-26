@@ -28,7 +28,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  # test: <newest_version>
+  test: ^1.5.0
   mockito: ^4.1.0
 
 

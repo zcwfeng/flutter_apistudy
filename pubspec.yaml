@@ -28,6 +28,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  # test: <newest_version>
+  mockito: ^4.1.0
 
 
 # For information on the generic Dart part of this file, see the

@@ -20,26 +20,13 @@ class HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: Text('HomeScreen'),
       ),
-      body: Column(
+      body: Row(
         children: <Widget>[
           Center(
           child: Text("page1"),
           ),
           Center(
             child: SelectionButton(),
-          ),
-          GestureDetector(
-            child: Hero(
-              tag: 'imageHero',
-              child: Image.network(
-                'https://picsum.photos/250?image=9',
-              ),
-            ),
-            onTap: () {
-              Navigator.push(context, MaterialPageRoute(builder: (_) {
-                return DetailScreenImageAnim();
-              }));
-            },
           ),
         ],
       ),
@@ -526,29 +513,4 @@ class ScreenArguments {
   final String message;
 
   ScreenArguments(this.title, this.message);
-}
-
-///
-/// Detail Screen Anim
-///
-
-class DetailScreenImageAnim extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: GestureDetector(
-        child: Center(
-          child: Hero(
-            tag: 'imageHero',
-            child: Image.network(
-              'https://picsum.photos/250?image=9',
-            ),
-          ),
-        ),
-        onTap: () {
-          Navigator.pop(context);
-        },
-      ),
-    );
-  }
 }

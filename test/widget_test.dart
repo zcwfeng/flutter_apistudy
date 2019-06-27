@@ -7,7 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
+import 'package:flutter_apistudy/MyWidget.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
@@ -25,5 +25,13 @@ void main() {
     // Verify that our counter has incremented.
     expect(find.text('0'), findsNothing);
     expect(find.text('1'), findsOneWidget);
+  });
+
+  testWidgets("MyWidget has a little and message", (WidgetTester tester) async {
+    await tester.pumpWidget(MyWidget(title: 'T',message: 'M'));
+    final titleFinder = find.text('T');
+    final messageFinder = find.text('M');
+    expect(titleFinder, findsOneWidget);
+    expect(messageFinder, findsOneWidget);
   });
 }

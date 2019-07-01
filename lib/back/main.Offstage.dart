@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 
+import 'package:flutter/widgets.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -31,6 +33,17 @@ class _MyHomePageState extends State<MyHomePage> {
 
   bool showAd = true;
 
+  Widget _buildA(){
+    var content;
+    if(showAd) {
+      content = new Text('隐藏解决方案占位');
+    } else {
+      content = new Container(height: 0.0,width: 0.0);
+    }
+
+    return content;
+  }
+
 
   @override
   Widget build(BuildContext context) {
@@ -39,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
 
-      body: Row(
+      body: Column(
 
         mainAxisAlignment:MainAxisAlignment.center,
 
@@ -48,6 +61,9 @@ class _MyHomePageState extends State<MyHomePage> {
             duration: Duration(microseconds: 3),
             opacity: showAd ? 1.0 : 0.0,
             child: new Text("测试隐藏AnmatedOpacity opacity"),
+          ),
+          Container(
+            child: _buildA(),
           ),
           Offstage(
             offstage: showAd,

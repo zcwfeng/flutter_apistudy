@@ -123,14 +123,39 @@ class DetailScreenImageAnim extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: GestureDetector(
-        child: Center(
-          child: Hero(
-            tag: 'imageHero',
-            child: Image.network(
-              'https://picsum.photos/250?image=9',
-            ),
+      appBar: AppBar(
+        title: Text('Detail'),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.playlist_play),
+            tooltip: 'Air it',
           ),
+          IconButton(
+            icon: Icon(Icons.playlist_add),
+            tooltip: 'Restitch it',
+          ),
+          IconButton(
+            icon: Icon(Icons.playlist_add_check),
+            tooltip: 'Repair it',
+    ),
+  ],
+      ),
+      body: GestureDetector(
+        child:  Column(
+          children: <Widget>[
+            Center(
+              child: Hero(
+                tag: 'imageHero',
+                child: Image.network(
+                  'https://picsum.photos/250?image=9',
+                  ),
+                ),
+              ),
+
+              Center(
+                  child:Text('描述例如小布偶'),
+              )
+          ],
         ),
         onTap: () {
           Navigator.pop(context);

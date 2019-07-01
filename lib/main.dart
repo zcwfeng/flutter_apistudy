@@ -91,7 +91,8 @@ class BottomNavigationWidgetState extends State<BottomNavigationWidget> {
           ),
           Offstage(
             offstage: !showAd,
-            child: Container(
+            child: Material(
+              child:Container(
               decoration: BoxDecoration(
                 gradient: LinearGradient(colors:[Colors.red,Colors.orange[700]]), //背景渐变
                 borderRadius: BorderRadius.circular(3.0), //3像素圆角
@@ -130,6 +131,7 @@ class BottomNavigationWidgetState extends State<BottomNavigationWidget> {
                   ],
               )
             )
+            ),
 
 
           )

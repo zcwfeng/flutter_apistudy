@@ -38,15 +38,43 @@ class _SampleAppPageState extends State<SampleAppPage> {
 
   @override
   Widget build(BuildContext context) {
+    //下划线widget预定义以供复用。
+    Widget divider1=Divider(color: Colors.blue,);
+    Widget divider2=Divider(color: Colors.green);
     return Scaffold(
         appBar: AppBar(
           title: Text("Sample App"),
         ),
-        body: ListView.builder(
-            itemCount: widgets.length,
-            itemBuilder: (BuildContext context, int position) {
-              return getRow(position);
-            }));
+        body:
+
+        // ListView.builder(
+        //     itemCount: widgets.length,
+        //     itemBuilder: (BuildContext context, int position) {
+        //       return getRow(position);
+        //     },
+
+        //   )
+
+        Column(
+          children: <Widget>[
+            ListTile(title:Text("商品列表")),
+            Expanded(
+              child: ListView.separated(
+                itemCount: widgets.length,
+                itemBuilder: (BuildContext context, int position) {
+                  return getRow(position);
+                },
+                //分割器构造器
+                separatorBuilder: (BuildContext context, int index) {
+                  return index%2==0?divider1:divider2;
+                },
+              ),
+            )
+          ],
+        )
+
+
+        );
   }
 
   Widget getRow(int i) {

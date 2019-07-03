@@ -1,0 +1,2176 @@
+{
+  "code": 200,
+  "msg": "成功!",
+  "data": {
+    "tech": [
+      {
+        "liveInfo": "test",
+        "tcount": 15706,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/90ea914d329f451290679343cb5587fa.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5D802P00097U7R",
+        "videoInfo": "test",
+        "channel": "tech",
+        "link": "https://3g.163.com/all/special/S1562126211398.html",
+        "source": "网易科技报道",
+        "title": "李彦宏遭现场泼水，淡定称前进决心不会变",
+        "type": "special",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "相关阅读：向李彦宏泼水男子疑似微博曝光:事前称\"准备上去了\"",
+        "typeid": "S1562126211398",
+        "addata": "test",
+        "tag": "专题",
+        "category": "科技",
+        "ptime": "2019-07-03 09:58:17"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 31871,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/b909e7ed73614db899a18b4ba3b5dc45.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5H1UUB00097U7R",
+        "videoInfo": "test",
+        "channel": "tech",
+        "link": "https://3g.163.com/all/article/EJ5H1UUB00097U7R.html",
+        "source": "网易科技报道",
+        "title": "向李彦宏泼水男子疑似微博曝光:事前称\"准备上去了\"",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "相关阅读：李彦宏遭现场泼水，淡定称前进决心不会变百度回应：有",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "科技",
+        "ptime": "2019-07-03 11:04:54"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 242,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/f762591ce1dd4d61b4d03c0933e66d7a.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5480FC00097U7T",
+        "videoInfo": "test",
+        "channel": "tech",
+        "link": "https://3g.163.com/all/article/EJ5480FC00097U7T.html",
+        "source": "网易科技报道",
+        "title": "特斯拉二季度交付9.5万辆车创纪录，盘后大涨7.1%",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "网易科技讯7月3日消息，据国外媒体报道，特斯拉第二季度电动汽",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "科技",
+        "ptime": "2019-07-03 07:21:00"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 1338,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/616355cdbdac41f085ccbb62b1a5edbb.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5HHHVO00097U7R",
+        "videoInfo": "test",
+        "channel": "tech",
+        "link": "https://3g.163.com/all/article/EJ5HHHVO00097U7R.html",
+        "source": "态℃",
+        "title": "态℃|乐清事件过去300天 滴滴的努力会得到原谅吗?",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "作者|彭丽慧出品|网易科技《态℃》栏目组（公众号：tech_",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "科技",
+        "ptime": "2019-07-03 11:13:25"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://bjnewsrec-cv.ws.126.net/little788FSMpi7OFjzZn9lUP81w0=q6YyZN8zWa4zTdMHPypk4nkE1562153480238compressflag.jpg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ6E1BL1051799CB",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ6E1BL1051799CB.html",
+        "source": "媒体训练营",
+        "title": "去哪儿网掘金：少年派的国潮之旅",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "文旅市场上行的大趋势，去哪儿网为年轻人提供了一种精致任性的生",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 19:32:29"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://bjnewsrec-cv.ws.126.net/little900A=iuFChopwGlDUqjRn=SF3S8NpkVSMdSFaNuJn1QZUga41562151448703compressflag.jpg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ6CPCT8051191SS",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ6CPCT8051191SS.html",
+        "source": "NEXTMIND",
+        "title": "他伸手去捡钓来的鱼，最后却吓出一身冷汗！",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "NEXTMIND想象一下这个画面，你好不容易钓到一条鱼，伸手",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 19:11:55"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://bjnewsrec-cv.ws.126.net/little6861OscD7SzoCE=hQSewd0s=W5JT97YncVEGAg5soXxf5AVE1562151261982compressflag.jpg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ6BTRM205118PQA",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ6BTRM205118PQA.html",
+        "source": "倪叔",
+        "title": "爱尔兰对苹果发起第三宗隐私权调查 涉及个人数据处理",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "此次调查旨在调查苹果公司是否遵守了欧盟新出台的《通用数据保护",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 19:08:02"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://bjnewsrec-cv.ws.126.net/little9457twifWdodYNFPKwyul0kTpGdtxPfkrplmYKZNYTnVMONu1562151118965.jpg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ6BSMF605118D5B",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ6BSMF605118D5B.html",
+        "source": "GPLP",
+        "title": "3年累亏3.5亿元 资本的埃夫特谋求科创板上市",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "作者：夏天编辑：远风审校：一条辉来源：GPLP犀牛财经（ID",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 18:54:10"
+      }
+    ],
+    "auto": [
+      {
+        "liveInfo": "test",
+        "tcount": 137,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/11b92b5b8e1b4b62aa2f628169faa876.jpeg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ64M5CP0008856R",
+        "videoInfo": "test",
+        "channel": "auto",
+        "link": "https://3g.163.com/all/article/EJ64M5CP0008856R.html",
+        "source": "网易汽车",
+        "title": "增新动力换新系统 吉利新博越PRO首发",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "版权声明：本文版权为网易汽车所有，转载请注明出处。网易汽车7",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "汽车",
+        "ptime": "2019-07-03 16:47:59"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 1601,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/34c93b0d66b14a7cba9cbbad7f5a01f5.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5K0L24000887BT",
+        "videoInfo": "test",
+        "channel": "auto",
+        "link": "https://3g.163.com/all/article/EJ5K0L24000887BT.html",
+        "source": "网易汽车综合",
+        "title": "每日易乐:夏天到了 后排出风口的车确实更凉爽",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "网易汽车综合7月3日报道各位易友有任何建议、想法甚至素材都可",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "汽车",
+        "ptime": "2019-07-03 11:56:37"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 115,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/4922bff995a8488dbdecc2dbd2218bd5.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ65T65E0008856R",
+        "videoInfo": "test",
+        "channel": "auto",
+        "link": "https://3g.163.com/all/article/EJ65T65E0008856R.html",
+        "source": "网易汽车",
+        "title": "搭1.3T+7DCT 东风雷诺科雷缤是不是你的菜?",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "版权声明：本文版权为网易汽车所有，转载请注明出处。网易汽车7",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "汽车",
+        "ptime": "2019-07-03 17:09:17"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 25,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/522d08ffef9f43e6b275420dc1a84162.jpeg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5UCA3A0008856R",
+        "videoInfo": "test",
+        "channel": "auto",
+        "link": "https://3g.163.com/all/article/EJ5UCA3A0008856R.html",
+        "source": "网易汽车",
+        "title": "续航502km/30分钟快充 宋Pro EV配置给力",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "版权声明：本文版权为网易汽车所有，转载请注明出处。网易汽车7",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "汽车",
+        "ptime": "2019-07-03 14:57:44"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 152,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/a08225120a93429ebc7d030b1f236e95.jpeg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5SBKOM0008856R",
+        "videoInfo": "test",
+        "channel": "auto",
+        "link": "https://3g.163.com/all/article/EJ5SBKOM0008856R.html",
+        "source": "网易汽车",
+        "title": "分体式前后灯组 新宝骏CN202M精致感不输合资",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "版权声明：本文版权为网易汽车所有，转载请注明出处。网易汽车7",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "汽车",
+        "ptime": "2019-07-03 14:22:25"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/02/7650894026cf499eb11fc62582cc1178.jpeg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ56CGNEwanghl",
+        "videoInfo": "test",
+        "channel": "auto",
+        "link": "https://3g.163.com/all/special/S1561702093929.html",
+        "source": "网易汽车",
+        "title": "汽车产业大变革 聚焦2019世界新能源汽车大会 ",
+        "type": "special",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "",
+        "typeid": "S1561702093929",
+        "addata": "test",
+        "tag": "专题",
+        "category": "推荐",
+        "ptime": "2019-07-03 07:58:25"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 551,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/fdc5a029e6e74221a77a184c51db2000.jpeg",
+            "height": "test"
+          }
+        ],
+        "docid": "EHK80IA20008856R",
+        "videoInfo": "test",
+        "channel": "auto",
+        "link": "https://3g.163.com/all/article/EHK80IA20008856R.html",
+        "source": "网易汽车",
+        "title": "熟悉的陌生人 吉利几何A你得知道的那些事",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "几何是啥？几何汽车是啥？几何A又是啥？",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "汽车",
+        "ptime": "2019-07-03 15:20:55"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 1444,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/5b771c902a5b4597afa4332007d4d8ec.jpeg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ556BEH0008856S",
+        "videoInfo": "test",
+        "channel": "auto",
+        "link": "https://3g.163.com/all/article/EJ556BEH0008856S.html",
+        "source": "网易汽车",
+        "title": "超变擎发动机有多牛?日产2.0T发动机解析",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "日产潜心研发的VC-TURBO发动机绝对算得上是匠心之作，进",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "汽车",
+        "ptime": "2019-07-03 07:37:35"
+      }
+    ],
+    "money": [
+      {
+        "liveInfo": "test",
+        "tcount": 648,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/43a5f884ba1847d7b4df7d007d76bb45.jpeg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5QVOUI00258105",
+        "videoInfo": "test",
+        "channel": "money",
+        "link": "https://3g.163.com/all/article/EJ5QVOUI00258105.html",
+        "source": "环球时报-环球网",
+        "title": "456%!美宣布对韩国与台湾征收惩罚性关税",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "路透社报道截图【环球网报道记者李东尧】据路透社消息，当地时间",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "财经",
+        "ptime": "2019-07-03 13:58:28"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 1,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/6b7e76c0e5a241118ad891df1aa22979.jpeg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ55L4GQ00259DLP",
+        "videoInfo": "test",
+        "channel": "money",
+        "link": "https://3g.163.com/all/special/S1561623605246.html",
+        "source": "Wind资讯",
+        "title": "达沃斯干货梳理:数字货币、5G、AI全涉及",
+        "type": "special",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "2019年夏季达沃斯论坛7月1日至3日在中国大连举行，今年大",
+        "typeid": "S1561623605246",
+        "addata": "test",
+        "tag": "专题",
+        "category": "财经",
+        "ptime": "2019-07-03 07:45:39"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 3115,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/75d0a09103e94c469d5b52d982d212f2.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5VURH4002580S6",
+        "videoInfo": "test",
+        "channel": "money",
+        "link": "https://3g.163.com/all/special/S1562140484327.html",
+        "source": "第一财经",
+        "title": "新城控股董事长猥亵女童 被采取强制措施",
+        "type": "special",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "据知情人士提供的信息，上市公司新城控股董事长王某因猥亵9岁女",
+        "typeid": "S1562140484327",
+        "addata": "test",
+        "tag": "专题",
+        "category": "财经",
+        "ptime": "2019-07-03 15:21:10"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 454,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/4b36e5fc94fb465886feb6bfd75b4c92.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5ULEI100258152",
+        "videoInfo": "test",
+        "channel": "money",
+        "link": "https://3g.163.com/all/article/EJ5ULEI100258152.html",
+        "source": "网易财经",
+        "title": "收评：沪指低位震荡跌0.94% 白马股集体下挫",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "网易财经7月3日讯沪深两市早盘小幅低开，开盘之后指数单边走弱",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "财经",
+        "ptime": "2019-07-03 15:02:44"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          
+        ],
+        "docid": "EJ6DSF4J05198UNI",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ6DSF4J05198UNI.html",
+        "source": "智通财经网",
+        "title": "泛亚国际(06128)：安永退任核数师",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 0,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "智通财经网智通财经APP讯，泛亚国际(06128)发布公告，",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 19:30:39"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          
+        ],
+        "docid": "EJ6DS0EB0512B07B",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ6DS0EB0512B07B.html",
+        "source": "每日经济新闻",
+        "title": "百度式投资：从多元到围猎AI，早期项目占比过半",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 0,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "今日，发生在百度AI开发者大会上的“小插曲”，令投资界再次对",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 19:29:00"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/1636ece5ad5f4533b00225ac3ec8f4a0.jpeg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ6DOGFF0519C6T9",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ6DOGFF0519C6T9.html",
+        "source": "中新经纬",
+        "title": "两部门约谈有关搜索引擎网站 整治志愿填报指导信息服务",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "中新经纬客户端7月3日电据教育部官网消息，近日群众反映，通过",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 19:27:52"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/90fc312388c34e95b338a0bfb14621e8.jpeg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ6DJCI605198UNI",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ6DJCI605198UNI.html",
+        "source": "智通财经网",
+        "title": "“手捧”黄金的六福集团（00590）要过苦日子",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "智通财经网消费疲软时，可选消费产品的需求会表现得更加敏感，黄",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 19:24:58"
+      }
+    ],
+    "sports": [
+      {
+        "liveInfo": "test",
+        "tcount": 7682,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/5b6dcd5a781c46da9f70b28143b4e85c.png",
+            "height": "test"
+          },
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/c2fdcadfcd8e4b3a96c947e31ac872f0.jpeg",
+            "height": "test"
+          },
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/fb96b70b547b4db3ae820ec28c15eed2.jpeg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ59S3DTbjliudongchen",
+        "videoInfo": "test",
+        "channel": "sports",
+        "link": "https://3g.163.com/all/photoview/0005/165943.html",
+        "source": "视觉中国",
+        "title": "梅西冠军梦再碎 阿根廷何时停止哭泣?",
+        "type": "photoset",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 2,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "",
+        "typeid": "00C90005|165943",
+        "addata": "test",
+        "tag": "图集",
+        "category": "推荐",
+        "ptime": "2019-07-03 08:59:22"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 29011,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/4cf5a277001d4523892f66a2162a2c59.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5EKHI000058781",
+        "videoInfo": "test",
+        "channel": "sports",
+        "link": "https://3g.163.com/all/article/EJ5EKHI000058781.html",
+        "source": "网易体育",
+        "title": "美洲杯-阿根廷又梦碎!梅西中柱0-2巴西 热苏斯传射",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "网易体育7月3日报道：北京时间7月3日上午8点30分，201",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "体育",
+        "ptime": "2019-07-03 10:22:37"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 11202,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/dcd7bfa709764a0191f16efa4d494d68.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5FEGJD00058781",
+        "videoInfo": "test",
+        "channel": "sports",
+        "link": "https://3g.163.com/all/article/EJ5FEGJD00058781.html",
+        "source": "网易体育",
+        "title": "阿根廷又在哭泣!梅西5战1点球0助攻 明夏还见不见?",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "网易体育7月3日报道：在阵容严重弱化的情况下，阿根廷能够打进",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "体育",
+        "ptime": "2019-07-03 10:36:48"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 13839,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/b5c710ca4b314eae81fb729327dbcc22.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5L7D8U00058781",
+        "videoInfo": "test",
+        "channel": "sports",
+        "link": "https://3g.163.com/all/special/S1559113844025.html",
+        "source": "网易体育",
+        "title": "梅西罕见爆粗:南美足协不会管VAR 里面都是巴西人",
+        "type": "special",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "网易体育7月3日报道：阿根廷出局赛后，对于VAR使用的原则和",
+        "typeid": "S1559113844025",
+        "addata": "test",
+        "tag": "专题",
+        "category": "体育",
+        "ptime": "2019-07-03 12:17:47"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://bjnewsrec-cv.ws.126.net/little397818c231f7e969ed8a96b7319e0465990.jpg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ6E3OPP05298H53",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ6E3OPP05298H53.html",
+        "source": "肆客足球App",
+        "title": "苏宁尖刀黄紫昌参与球队合练，伤病痊愈复出在即",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "本周末，本赛季中超联赛的下半程将全面打响，江苏苏宁易购队目前",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 19:33:37"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://bjnewsrec-cv.ws.126.net/little7933cbe1728f3a0645b603ec244723347c9.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ6E2LDV05298H53",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ6E2LDV05298H53.html",
+        "source": "肆客足球App",
+        "title": "老胡梅尔斯：球员需要薪水，也需要欣赏和肯定",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "北京时间7月3日《体育图片报》消息，胡梅尔斯的父亲把矛头对准",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 19:32:44"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://bjnewsrec-cv.ws.126.net/little1936ee7620eeb04eb2427d307d247d40ca1.jpg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ6DJ7K505298H53",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ6DJ7K505298H53.html",
+        "source": "肆客足球App",
+        "title": "记者：埃神转会恒大有回避条款，今年不会出战上港",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "7月3日，据足球记者唐艺榕消息，在埃尔克森回归广州恒大的转会",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 19:24:25"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://bjnewsrec-cv.ws.126.net/little775JFxxYkgZpWBsQLVz=4unFyuS556t8tvtXjWTJRQvasWQo1562135558262compressflag.jpg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5T4MOR05298NSG",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ5T4MOR05298NSG.html",
+        "source": "足球王国",
+        "title": "【中国女足】铿锵玫瑰，已凋零枯萎？",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "2019年法国女足世界杯小组赛上磕磕绊绊的中国女足提前用光了",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 19:03:01"
+      }
+    ],
+    "dy": [
+      {
+        "liveInfo": "test",
+        "tcount": 2,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/5500aafc9d7d4d6f83d74d5daa465bc5.jpeg",
+            "height": "test"
+          },
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/8f28ea9f4b0642b9bea0ca7be6e782e2.jpeg",
+            "height": "test"
+          },
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/a4a0b3e4721d41debdd723d82cdc2572.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ58B61U051597ER",
+        "videoInfo": "test",
+        "channel": "dy",
+        "link": "https://3g.163.com/all/article/EJ58B61U051597ER.html",
+        "source": "科罗廖夫",
+        "title": "僵尸肉、老鼠和海龟：大航海时代，水手耗尽口粮后吃什么？",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 2,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "当今时代海军的饮食安排非常优良。但就航海史而言，罐头食品和低",
+        "typeid": "T1460704330156",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 12:32:47"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 3,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/3eb9feda5754427aa9d6e2a53e643d9a.png",
+            "height": "test"
+          },
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/abd7930c26be495baee8cce300d6a161.png",
+            "height": "test"
+          },
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/a5ff23a4e1984185825ce1772821e63c.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5IDL2D05228VCS",
+        "videoInfo": "test",
+        "channel": "dy",
+        "link": "https://3g.163.com/all/article/EJ5IDL2D05228VCS.html",
+        "source": "美食工坊",
+        "title": "没想到它俩还能炒一块，鲜甜爽口还不上火！",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 2,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "荔枝，自古以来就是深受大家的喜爱，如杜牧在《过华清宫》中写道",
+        "typeid": "T1456293073719",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 11:29:32"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 4,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/8ffae7b016cb42188872f33feab66fb0.png",
+            "height": "test"
+          },
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/6383786db5dd46d3b2534219b306e102.png",
+            "height": "test"
+          },
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/ef36c503054141e094731f34bb6ebc36.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ47IVMO051486KB",
+        "videoInfo": "test",
+        "channel": "dy",
+        "link": "https://3g.163.com/all/article/EJ47IVMO051486KB.html",
+        "source": "阮光锋",
+        "title": "鸡头、鸡屁股、鸡脖子，到底鸡的哪些部位不能吃？",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 2,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "鸡年，当然要吃鸡了。不过，网上一直流传说鸡的很多部位不能吃，",
+        "typeid": "T1436176303007",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 10:00:25"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 5,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/6f9a4240572447b4a382be5d504b045f.jpeg",
+            "height": "test"
+          },
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/224581cca75940208c69de407f36cd8a.jpeg",
+            "height": "test"
+          },
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/050ca24e0a3e4bd4ac738ffa4446d6e7.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5V8TF405118OGM",
+        "videoInfo": "test",
+        "channel": "dy",
+        "link": "https://3g.163.com/all/article/EJ5V8TF405118OGM.html",
+        "source": "果壳",
+        "title": "同事天天做PPT，从我入职做到我离职：工作到底有什么意义？",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 2,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "之前一篇文章《想要996的老板们，等待你们的恐怕是全司集体摸",
+        "typeid": "T1374539968172",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 15:15:43"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 2,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/f52e99f38d8d4afc95e88cc71ca75be8.png",
+            "height": "test"
+          },
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/31f70cebb1eb4671925dd3dde9ddbeee.png",
+            "height": "test"
+          },
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/33106b559eff4fe796ab8f7dab86c8b3.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5UMUQ80511FMIQ",
+        "videoInfo": "test",
+        "channel": "dy",
+        "link": "https://3g.163.com/all/article/EJ5UMUQ80511FMIQ.html",
+        "source": "脑极体",
+        "title": "终于来了！5G“辐射恐惧症”也许会迟到，但绝对不会缺席",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 2,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "从手机诞生那天起，有关辐射的传言就从来没有停止过：“头顶高压",
+        "typeid": "T1494736203795",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 15:05:24"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/2b0bfd0b1b1b467b9dd6a600601149fc.jpeg",
+            "height": "test"
+          },
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/8b4c02680b4b46a19f8974d0aab11d60.jpeg",
+            "height": "test"
+          },
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/052c7fd4bbfb48c9872a82e14c58ddf6.jpeg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5T5SL00514CKB6",
+        "videoInfo": "test",
+        "channel": "dy",
+        "link": "https://3g.163.com/all/article/EJ5T5SL00514CKB6.html",
+        "source": "丁香医生",
+        "title": "挖鼻屎一时爽，一直挖一直爽",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 2,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "不花钱还能爽是地球人共同的追求在探索快感的道路上人们先后研发",
+        "typeid": "T1482377048407",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 15:02:39"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 17,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/36e207c776ca4bf2b8225b4d2efeac84.png",
+            "height": "test"
+          },
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/613db3b4dea54d4e9a834341c34ed1ff.jpeg",
+            "height": "test"
+          },
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/394346bdd4374bdb9288c6a75e23b33d.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ4C4AJJ05259Q0E",
+        "videoInfo": "test",
+        "channel": "dy",
+        "link": "https://3g.163.com/all/article/EJ4C4AJJ05259Q0E.html",
+        "source": "物种日历",
+        "title": "夏天穿啥才凉快？当然是“裹尸布”啦！",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 2,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "亚麻（Linumusitatissimum），亚麻科亚麻属的",
+        "typeid": "T1467779078619",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 07:45:08"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 6,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://dingyue.ws.126.net/Z5WWsEGf32UvX=d302eW8nEI7fsrNVuYvSRJyyTyRVIXN1560345566768compressflag.jpeg",
+            "height": "test"
+          }
+        ],
+        "docid": "EHGIJNHJ05429A57",
+        "videoInfo": "test",
+        "channel": "dy",
+        "link": "https://3g.163.com/all/article/EHGIJNHJ05429A57.html",
+        "source": "科学心理学Chamber",
+        "title": "心理学人是怎么思考问题的",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 3,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "一个风和日丽的下午，李雷急匆匆大步流星地走进操场的大门。看台",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-06-12 21:32:20"
+      }
+    ],
+    "war": [
+      {
+        "liveInfo": "test",
+        "tcount": 1550,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/7b9b2142a58c4fb88dd3067706934852.jpeg",
+            "height": "test"
+          }
+        ],
+        "docid": "0001set2302644",
+        "videoInfo": "test",
+        "channel": "war",
+        "link": "https://3g.163.com/all/photoview/0001/2302644.html",
+        "source": "参考消息网",
+        "title": "俄罗斯AK203步枪零下50度仍能打！",
+        "type": "photoset",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 3,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "",
+        "typeid": "4T8E0001|2302644",
+        "addata": "test",
+        "tag": "图集",
+        "category": "推荐",
+        "ptime": "2019-07-03 09:19:36"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 208,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/ea20631e4154403ea299baa2cf54443e.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ63C5NE000181KT",
+        "videoInfo": "test",
+        "channel": "war",
+        "link": "https://3g.163.com/all/article/EJ63C5NE000181KT.html",
+        "source": "网易谈兵",
+        "title": "特朗普认怂，俄土成功将S400渗透进美国后院",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 3,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "文章为谈兵出品，独家精彩文章、视频、CG图请看这里&rarr",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "新闻",
+        "ptime": "2019-07-03 16:25:03"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 766,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/e5f1dda7adc349a18d4bc045fa886f82.png",
+            "height": "test"
+          },
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/bac2002a296746f8ab6d392ab4dbbcd5.png",
+            "height": "test"
+          },
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/f4e3c5e118794feeb2e7ed701a5c330d.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5D2GHJ000181KT",
+        "videoInfo": "test",
+        "channel": "war",
+        "link": "https://3g.163.com/all/article/EJ5D2GHJ000181KT.html",
+        "source": "环球网",
+        "title": "美两栖战车海上行驶被掀翻 水中180度翻滚",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 2,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "【环球网报道记者徐璐明】美国国防部近日解密了美国的两栖战车测",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "新闻",
+        "ptime": "2019-07-03 09:55:17"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 441,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://pic-bucket.ws.126.net/photo/0001/2019-07-03/EJ5F4MPD4T8E0001NOS.jpg",
+            "height": "test"
+          },
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://pic-bucket.ws.126.net/photo/0001/2019-07-03/EJ5F4MPE4T8E0001NOS.jpg",
+            "height": "test"
+          },
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://pic-bucket.ws.126.net/photo/0001/2019-07-03/EJ5F4MPF4T8E0001NOS.jpg",
+            "height": "test"
+          }
+        ],
+        "docid": "0001set2302649",
+        "videoInfo": "test",
+        "channel": "war",
+        "link": "https://3g.163.com/all/photoview/0001/2302649.html",
+        "source": "环球网",
+        "title": "相当活跃：日两艘准航母分别窜访亚太多国",
+        "type": "photoset",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 2,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "",
+        "typeid": "4T8E0001|2302649",
+        "addata": "test",
+        "tag": "图集",
+        "category": "推荐",
+        "ptime": "2019-07-03 10:32:06"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 4,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://bjnewsrec-cv.ws.126.net/little508Io5uuzSmQ25Q6kSgiL6ePiacJNNppyiEG5ytzY=gsehbG1562147746728compressflag.jpg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ68LH7Q05159HE4",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ68LH7Q05159HE4.html",
+        "source": "张召忠",
+        "title": "日本引进埃博拉病毒，为了科学还是什么？",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "文/周郎昨天（7月2日），日本一则消息在中日民众间都炸开了锅",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 18:01:03"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/3260aa91db1e49908c4676972e30a9f0.jpeg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ68BIAA05159HE4",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ68BIAA05159HE4.html",
+        "source": "张召忠",
+        "title": "特朗普嗨了！美国独立日阅兵，最新坦克和战机齐上阵",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "文/懒人7月4日，特朗普将迎来他梦寐以求的一天&hellip",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 17:54:35"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://bjnewsrec-cv.ws.126.net/little123NW1cPJlcLPBdk9sZEcW0tepqk6HZ1xbqRlNY8Zatoqv3X1562147149540.jpg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ680TMU05159U7P",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ680TMU05159U7P.html",
+        "source": "军武酷",
+        "title": "三国军舰擅闯禁航区，某方反制升级，亮出“杀手锏”！",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "古代中国人招待来客，往往是先在中堂下分宾主落座，然后上茶。如",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 17:54:31"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 20,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://bjnewsrec-cv.ws.126.net/little653QaQIH4GGA0yG9hxnPJxnIIipkzaz9nczXKODaM9PpsyZ81562147416384.jpg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ688EAI05159U7P",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ688EAI05159U7P.html",
+        "source": "军武酷",
+        "title": "1小时绕飞全球，二代黑鸟要来了！谁能击落它？",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "在美苏争霸时期，两国进行疯狂的军事竞争，都曾研制出远超时代的",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 17:51:08"
+      }
+    ],
+    "ent": [
+      {
+        "liveInfo": "test",
+        "tcount": 2,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/f99e0f13f0574a449d80e6d97b0d2bc1.jpeg",
+            "height": "test"
+          }
+        ],
+        "docid": "0003set667471",
+        "videoInfo": "test",
+        "channel": "ent",
+        "link": "https://3g.163.com/all/photoview/0003/667471.html",
+        "source": "视觉中国",
+        "title": "钟丽缇与婆婆同行 穿着太“清凉”",
+        "type": "photoset",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "",
+        "typeid": "00AJ0003|667471",
+        "addata": "test",
+        "tag": "图集",
+        "category": "推荐",
+        "ptime": "2019-07-03 19:24:15"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 2126,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/8a884a9e19e847cd99468d23cb3ff7e0.jpeg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5S2DUE00038FO9",
+        "videoInfo": "test",
+        "channel": "ent",
+        "link": "https://3g.163.com/all/special/S1557799875208.html",
+        "source": "新京报",
+        "title": "官方通报张云雷事件处罚结果:责成德云社公开道歉",
+        "type": "special",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "新京报7月3日报道7月3日，青岛市文化市场行政执法局微信公众",
+        "typeid": "S1557799875208",
+        "addata": "test",
+        "tag": "专题",
+        "category": "娱乐",
+        "ptime": "2019-07-03 14:17:23"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 920,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/06f69a53c4204241b0d963fc5816b42c.jpeg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5TT77800038FO9",
+        "videoInfo": "test",
+        "channel": "ent",
+        "link": "https://3g.163.com/all/article/EJ5TT77800038FO9.html",
+        "source": "网易娱乐",
+        "title": "德云社就张云雷事件发声明道歉：将暂停其工作",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "网易娱乐7月3日报道德云社发声明向广大观众道歉，表示公司已对",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "娱乐",
+        "ptime": "2019-07-03 14:49:30"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": "test",
+        "picInfo": [
+          
+        ],
+        "docid": "test",
+        "videoInfo": "test",
+        "channel": "test",
+        "link": "test",
+        "source": "test",
+        "title": "test",
+        "type": "docYunRead",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": "test",
+        "unlikeReason": "test",
+        "isTop": "test",
+        "digest": "test",
+        "typeid": "test",
+        "addata": "test",
+        "tag": "test",
+        "category": "test",
+        "ptime": "test"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://bjnewsrec-cv.ws.126.net/little9120AJe0B6ifzuqv8gZVYSDBZqTHP1xC0ELZ=uBSy0hhJpNL1562152713831.jpg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ6DI4VG05375CPZ",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ6DI4VG05375CPZ.html",
+        "source": "ETtoday星光云",
+        "title": "崔佩仪熬夜拍戏扭脖放松　长期下来 一检查GG",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "记者萧雅玲／台北报导崔佩仪日前上年代《聚焦2.0》录影，节目",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 19:31:35"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://bjnewsrec-cv.ws.126.net/little742nI5GBLUtSt26EHGfknNakYuoxg7SYeqCSAWlr08lceizg1562153208495compressflag.jpg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ6DP27T0517R28E",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ6DP27T0517R28E.html",
+        "source": "万丝读帆话",
+        "title": "抖音红人宁若昕蹿红 女版《伪装》刷屏网络",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "Yes娱乐7月2日综合报导日前，新生代实力女歌手、宁若昕演绎",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 19:30:09"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://bjnewsrec-cv.ws.126.net/little512myxFr5c=x=nOLuXOPVkOHbQeFlXqatwNTYsC6KOogM4171562153156719.jpg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ6DOAQ90517D4FT",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ6DOAQ90517D4FT.html",
+        "source": "迷影生活",
+        "title": "粉丝经济时代的“泥石流”，邓伦的后援会是来搞笑的吗？",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "粉丝经济是如今娱乐圈的“支柱型产业”，任何事物的发生都有其必",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 19:28:58"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://bjnewsrec-cv.ws.126.net/little700i2jRB2UE59apAMJzX8OX2gAfW=5m9B2CcoTNJ8krBRgMp1562153164088compressflag.jpg",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ6DOJM705375CPZ",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ6DOJM705375CPZ.html",
+        "source": "ETtoday星光云",
+        "title": "茵声街头拉扯翻脸男友！暴怒甩头走人下秒剧情狗血神展开",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "娱乐中心／综合报导「这群人」成员茵声跟刘书宏恋爱ing，态度",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "推荐",
+        "ptime": "2019-07-03 19:28:25"
+      }
+    ],
+    "toutiao": [
+      {
+        "liveInfo": "test",
+        "tcount": 441,
+        "picInfo": [
+          
+        ],
+        "docid": "EJ5VJ5C3000189FH",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ5VJ5C3000189FH.html",
+        "source": "新华社",
+        "title": "攻城拔寨！我们有信心打赢这场脱贫攻坚战",
+        "type": "doc",
+        "imgsrcFrom": "doc",
+        "imgsrc3gtype": 0,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": true,
+        "digest": "确保贫困人口到2020年如期脱贫这是目标也是使命如今在中国农",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "新闻",
+        "ptime": "2019-07-03 15:18:57"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 94,
+        "picInfo": [
+          
+        ],
+        "docid": "EJ5BCCUU000189FH",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ5BCCUU000189FH.html",
+        "source": "央视网$",
+        "title": "习近平多封贺信传递中国主张",
+        "type": "doc",
+        "imgsrcFrom": "doc",
+        "imgsrc3gtype": 0,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": true,
+        "digest": "【联播+】一封贺信，字里行间传递千言万语。7月2日，习近平主",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "新闻",
+        "ptime": "2019-07-03 09:25:44"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 4026,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/2f2f2608d4474612943acd889dbbdd02.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ68A1T40001899O",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ68A1T40001899O.html",
+        "source": "外交部驻港公署网站",
+        "title": "英外交大臣发涉港言论 驻港公署:大放厥词荒谬之极",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "我们对英国外交大臣多次发表错误涉港言论表示强烈愤慨，公署负责",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "新闻",
+        "ptime": "2019-07-03 17:51:16"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 26018,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/6f05d751efbd4d6f88d09551450505d4.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5PCLUA0001875P",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ5PCLUA0001875P.html",
+        "source": "澎湃新闻",
+        "title": "三峡大坝发生变形可能溃坝？三峡集团专家辟谣",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "“三峡大坝发生变形可能溃坝”的传言为假消息。7月1日，一条三",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "新闻",
+        "ptime": "2019-07-03 13:30:34"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 724,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/6e25dbb384664828b0738b97fa1e7f69.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ68E8LN00018AP2",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ68E8LN00018AP2.html",
+        "source": "红星新闻",
+        "title": "向李彦宏泼水者曾开网店 前妻称离婚2年未付抚养费",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "在7月3日举行的2019年百度AI开发者大会上，百度CEO李",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "新闻",
+        "ptime": "2019-07-03 17:43:20"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 30740,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/be49635d0648484db753798eb6352d41.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5VI0570001899N",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/special/S1562146091059.html",
+        "source": "新民晚报",
+        "title": "新城控股董事长因猥亵9岁女童被采取强制措施",
+        "type": "special",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "据知情人士提供的信息，上市公司新城控股董事长王某因猥亵9岁女",
+        "typeid": "S1562146091059",
+        "addata": "test",
+        "tag": "专题",
+        "category": "新闻",
+        "ptime": "2019-07-03 15:18:19"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/7ff3f8abf9844c8280b74f8a83ae898d.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ6D08C90001899N",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ6D08C90001899N.html",
+        "source": "环球时报-环球网",
+        "title": "香港立法会被冲击后首开放:破坏严重 文件散落一地",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "【香港立法会被冲击后首次开放:内部设施破坏严重,文件散落一地",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "新闻",
+        "ptime": "2019-07-03 19:13:18"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/4c1f186ff5ef46e9b98fcc92c0f9e206.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ6CR39U0001899N",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ6CR39U0001899N.html",
+        "source": "现代快报",
+        "title": "国企老总落马 妻子发现有套房住着第三者和俩女儿",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "现代快报讯李某身为南通某国企老总被双规后，被法院判刑五年。出",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "新闻",
+        "ptime": "2019-07-03 19:10:29"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 0,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/108d0c27318f4ca1b6b23e80ac0fc11a.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ6DD10B0001899N",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ6DD10B0001899N.html",
+        "source": "新京报",
+        "title": "四川3个月大女婴被错输2天药物 卫健委:系医院责任",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "新京报讯今日（7月3日），新京报记者从家属处获悉，3个月的女",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "新闻",
+        "ptime": "2019-07-03 19:20:16"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 683,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/7b9d36b980294f939fafe92d1e33411e.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ69CPT600018AOR",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ69CPT600018AOR.html",
+        "source": "澎湃新闻",
+        "title": "苏宁有员工发布\"宏颜获水\"广告 回应:系个人行为",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "“&lsquo;宏颜获水&rsquo;同款单价1.075元，",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "新闻",
+        "ptime": "2019-07-03 18:08:00"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 814,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/230094a075eb42e3bbdbcd9d590e469b.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ668Q810001899N",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/special/S1561721890165.html",
+        "source": "新京报",
+        "title": "班机上也要垃圾分类?东航:仅限回程抵沪航段上实施",
+        "type": "special",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "新京报讯今年7月1日，《上海市生活垃圾管理条例》正式施行，上",
+        "typeid": "S1561721890165",
+        "addata": "test",
+        "tag": "专题",
+        "category": "新闻",
+        "ptime": "2019-07-03 17:15:38"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 5905,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/d3cd2feeee6f4c1395131f59785d4284.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ5R5V7U0001875O",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ5R5V7U0001875O.html",
+        "source": "环球时报-环球网",
+        "title": "456%！美国对台湾地区部分钢铁制品征收惩罚性关税",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "【环球网报道】据路透社消息，当地时间2日，美国商务部宣布，将",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "新闻",
+        "ptime": "2019-07-03 14:01:51"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 4553,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/37f2cfa3ab814206bf157445062489a2.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ62HOI300018AOR",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ62HOI300018AOR.html",
+        "source": "澎湃新闻",
+        "title": "特朗普就被捕加拿大人向中方求情？外交部回应",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "7月3日，外交部发言人耿爽主持例行记者会。有记者提问，加拿大",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "新闻",
+        "ptime": "2019-07-03 16:09:00"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 645,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/afa11cbf3fd84840b2eab790facb30e7.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ6AAFQ90001899N",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ6AAFQ90001899N.html",
+        "source": "红星新闻",
+        "title": "李彦宏演讲风波:3年前曾遭抗议 被女生大喊\"骗子\"",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "46天前，百度发布了2019财年第一财季未经审计财报，净亏损",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "新闻",
+        "ptime": "2019-07-03 18:26:28"
+      },
+      {
+        "liveInfo": "test",
+        "tcount": 565,
+        "picInfo": [
+          {
+            "ref": "test",
+            "width": "test",
+            "url": "http://cms-bucket.ws.126.net/2019/07/03/ecd0ff0b71b341e5b259c64f5ea505c9.png",
+            "height": "test"
+          }
+        ],
+        "docid": "EJ69707E0001899N",
+        "videoInfo": "test",
+        "channel": "",
+        "link": "https://3g.163.com/all/article/EJ69707E0001899N.html",
+        "source": "北京青年报",
+        "title": "父亲担任董事长儿子当总裁 新城控股实为父子店",
+        "type": "doc",
+        "imgsrcFrom": "test",
+        "imgsrc3gtype": 1,
+        "unlikeReason": "重复、旧闻/6,内容质量差/6",
+        "isTop": "test",
+        "digest": "左边为王振华市场关注，今年32岁的王晓松能否扛起新城控股的重",
+        "typeid": "",
+        "addata": "test",
+        "tag": "",
+        "category": "新闻",
+        "ptime": "2019-07-03 18:07:05"
+      }
+    ]
+  }
+}

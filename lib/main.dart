@@ -28,7 +28,7 @@ class BottomNavigationWidgetState extends State<BottomNavigationWidget> {
     super.initState();
     pages
       ..add(HomeScreen())
-      ..add(EmailScreen())
+      ..add(NewsScreen())
       ..add(AlarmsScreen())
       ..add(ProfileScreen());
   }

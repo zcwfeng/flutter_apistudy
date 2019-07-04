@@ -3,19 +3,15 @@ import '../utils/NetUtil.dart';
 import '../data/entity.dart';
 
 
-//1
-class EmailScreen extends StatefulWidget {
+class NewsScreen extends StatefulWidget {
   @override
-  State<StatefulWidget> createState() => EmailScreenState();
+  State<StatefulWidget> createState() => NewsScreenState();
 }
 
-// List todos = List.generate(10, (i) => Todo(
-//           'Todo $i',
-//           'A description of what needs to be done for Todo $i'),
-//           ).toList();
 
 
-class EmailScreenState extends State<EmailScreen> {
+
+class NewsScreenState extends State<NewsScreen> {
 
   List<Auto> title = [];
   List widgets = <Widget>[];
@@ -95,14 +91,7 @@ class EmailScreenState extends State<EmailScreen> {
 
 
 
-// 跳转到第二个页面传递数据
-// Data
-// class Todo {
-//   final String title;
-//   final String description;
 
-//   Todo(this.title, this.description);
-// }
 
 class TodosScreen extends StatelessWidget {
   // final List<Todo> todos;
@@ -124,25 +113,6 @@ class TodosScreen extends StatelessWidget {
 
       body:
 
-      // ListView.builder(
-      //   itemCount: todos.length,
-      //   itemBuilder: (context, index) {
-      //     return ListTile(
-      //       title: Text(todos[index].title),
-      //       // When a user taps the ListTile, navigate to the DetailScreen.
-      //       // Notice that you're not only creating a DetailScreen, you're
-      //       // also passing the current todo through to it.
-      //       onTap: () {
-      //         Navigator.push(
-      //           context,
-      //           MaterialPageRoute(
-      //             builder: (context) => DetailScreen(todo: todos[index]),
-      //           ),
-      //         );
-      //       },
-      //     );
-      //   },
-      // ),
 
 
       Column(

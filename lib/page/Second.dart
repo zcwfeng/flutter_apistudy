@@ -8,51 +8,95 @@ class NewsScreen extends StatefulWidget {
   State<StatefulWidget> createState() => NewsScreenState();
 }
 
+class NewsScreenState extends State<NewsScreen> with SingleTickerProviderStateMixin{
 
+  Data pageData;
 
+  final List<Tab> myTabs = [];
 
-class NewsScreenState extends State<NewsScreen> {
+  TabController _tabController;
 
-  List<Auto> title = [];
-  List widgets = <Widget>[];
+ @override
+ void dispose() {
+   _tabController.dispose();
+   super.dispose();
+ }
 
   @override
   void initState() {
     super.initState();
+    _tabController = TabController(vsync: this, length: myTabs.length);
+
     getContent();
+
   }
   @override
   Widget build(BuildContext context) {
-    print("build>>>>>>>>>>>>>>>>>>>>>>>" + title.length.toString() + "......" + widgets.length.toString());
-
     return Scaffold(
       appBar: AppBar(
-        title: Text('EmailScreen'),
+        bottom: TabBar(
+          controller: _tabController,
+          tabs: myTabs,
+        ),
       ),
-      body: TodosScreen(
-        titles: title,
-        widgets: widgets,
+      body: TabBarView(
+        controller: _tabController,
+        children: myTabs.map((Tab tab) {
+
+          List widgets = <Widget>[];
+          for (int i = 0; i < 8; i++) {
+            widgets.add(getRow(i,context));
+          }
+          return TabView(data: pageData,widgets: widgets,);
+        }).toList(),
       ),
     );
   }
+
+
+  Tab getCustomTab(String title){
+    return Tab(
+      text: title,
+    );
+  }
+  //获取网络数据,这个接口可能会过一段时间就发生变化,用的别人接口
+  void getContent() {
+    NetUtil.get("https://www.apiopen.top/journalismApi", (data) {
+      Entity user = Entity.fromJson(data);
+      setState(() {
+        pageData = user.data;
+        // 留下一个bug暂时,想遍历Data 子对象动态赋值
+        // Data data = user.data;
+        // for (int i = 0; i < user.data.; i++) {
+        //   // myTabs.add(getCustomTab(title.));
+        // }
+
+        for(int i=0;i< 8;i++) {
+          myTabs.add(getCustomTab(i.toString()));
+        }
+        // _tabController = TabController(vsync: this, length: myTabs.length);
+
+
+      });
+    }, errorCallBack: (errorMsg) {
+      print("error:" + errorMsg);
+    });
+  }
+
 
   Widget getRow(int i,BuildContext context) {
     return GestureDetector(
       child: Padding(
           padding: EdgeInsets.all(10.0),
-          child: Text(title[i].title,textAlign: TextAlign.center)),
+          child: Text(i.toString(),textAlign: TextAlign.center)),
       onTap: () {
-        // setState(() {
-        //   widgets.add(getRow(widgets.length + 1,context));
-        // });
-
-        Navigator.push(
+          Navigator.push(
                 context,
                 MaterialPageRoute(
                   // builder: (context) => DetailScreen(todo: todos[i]),
                   builder: (context) =>
 
-                  DetailScreen(title: title[i]),
+                  DetailScreen(title: pageData.auto[0]),
 
                 //    NativeWebView(webUrl:"https://www.baidu.com/",
                 //   webRect:Rect.fromLTWH(0.0, 0.0, MediaQuery.of(context).size.width,
@@ -66,30 +110,38 @@ class NewsScreenState extends State<NewsScreen> {
   }
 
 
-  //获取网络数据,这个接口可能会过一段时间就发生变化,用的别人接口
-  void getContent() {
-    NetUtil.get("https://www.apiopen.top/journalismApi", (data) {
-      print("title>>>>>>NetUtils");
-
-      Entity user = Entity.fromJson(data);
-      setState(() {
-        title = user.data.auto;
-        print("title>>>>>>" + title.length.toString());
-
-        widgets.clear();
-        for (int i = 0; i < title.length; i++) {
-          widgets.add(getRow(i,context));
-        }
-      });
-    }, errorCallBack: (errorMsg) {
-      print("error:" + errorMsg);
-    });
-  }
-
 }
 
 
 
+class TabView extends StatelessWidget{
+  List<Auto> title = [];//TODO: 动态更换
+  List widgets = <Widget>[];
+  Data data;
+  TabView({Key key,this.data,this.widgets});
+
+
+
+    @override
+  Widget build(BuildContext context) {
+    title = data.auto;
+    print("build>>>>>>>>>>>>>>>>>>>>>>>" + title.length.toString() + "......" + widgets.length.toString());
+
+
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('News'),
+      ),
+      body: TodosScreen(
+        titles: title,
+        widgets: widgets,
+      ),
+    );
+  }
+
+
+
+}
 
 
 
@@ -112,9 +164,6 @@ class TodosScreen extends StatelessWidget {
       // ),
 
       body:
-
-
-
       Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,

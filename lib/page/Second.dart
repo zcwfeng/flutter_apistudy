@@ -7,14 +7,14 @@ class NewsScreen extends StatefulWidget {
   @override
   State<StatefulWidget> createState() => NewsScreenState();
 }
-
+TabController _tabController;
 class NewsScreenState extends State<NewsScreen> with SingleTickerProviderStateMixin{
 
   Data pageData;
 
   final List<Tab> myTabs = [];
 
-  TabController _tabController;
+  
 
  @override
  void dispose() {
@@ -25,15 +25,18 @@ class NewsScreenState extends State<NewsScreen> with SingleTickerProviderStateMi
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(vsync: this, length: myTabs.length);
-
+   
+    
     getContent();
 
   }
+
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        title: Text('News'),
         bottom: TabBar(
           controller: _tabController,
           tabs: myTabs,
@@ -72,9 +75,9 @@ class NewsScreenState extends State<NewsScreen> with SingleTickerProviderStateMi
         // }
 
         for(int i=0;i< 8;i++) {
-          myTabs.add(getCustomTab(i.toString()));
+          myTabs.add(getCustomTab("tech"));
         }
-        // _tabController = TabController(vsync: this, length: myTabs.length);
+        _tabController = TabController(vsync: this, length: myTabs.length);
 
 
       });
@@ -115,9 +118,9 @@ class NewsScreenState extends State<NewsScreen> with SingleTickerProviderStateMi
 
 
 class TabView extends StatelessWidget{
-  List<Auto> title = [];//TODO: 动态更换
-  List widgets = <Widget>[];
-  Data data;
+  List<Auto> title;//TODO: 动态更换
+  final List widgets;
+  final Data data;
   TabView({Key key,this.data,this.widgets});
 
 
@@ -129,9 +132,9 @@ class TabView extends StatelessWidget{
 
 
     return Scaffold(
-      appBar: AppBar(
-        title: Text('News'),
-      ),
+      // appBar: AppBar(
+      //   title: Text('News'),
+      // ),
       body: TodosScreen(
         titles: title,
         widgets: widgets,
@@ -148,7 +151,7 @@ class TabView extends StatelessWidget{
 class TodosScreen extends StatelessWidget {
   // final List<Todo> todos;
   final List<Widget> widgets;
-  List<Auto> titles;
+  final List<Auto> titles;
 
   TodosScreen({Key key, @required this.titles,@required this.widgets}) : super(key: key);
 
@@ -207,11 +210,11 @@ class DetailScreen extends StatelessWidget {
     // Use the Todo to create the UI.
     return Scaffold(
       appBar: AppBar(
-        title: Text(title.title),
+        title: Text(title.title == null ? "":title.title),
       ),
       body: Padding(
         padding: EdgeInsets.all(16.0),
-        child: Text(title.link),
+        child: Text(title.link == null ? "":title.link),
       ),
     );
   }

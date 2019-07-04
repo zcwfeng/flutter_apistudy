@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import '../utils/NetUtil.dart';
+import '../data/entity.dart';
+
 
 //1
 class EmailScreen extends StatefulWidget {
@@ -6,35 +9,32 @@ class EmailScreen extends StatefulWidget {
   State<StatefulWidget> createState() => EmailScreenState();
 }
 
-List todos = List.generate(10, (i) => Todo(
-          'Todo $i',
-          'A description of what needs to be done for Todo $i'),
-          ).toList();
+// List todos = List.generate(10, (i) => Todo(
+//           'Todo $i',
+//           'A description of what needs to be done for Todo $i'),
+//           ).toList();
 
-List widgets = <Widget>[];
 
 class EmailScreenState extends State<EmailScreen> {
 
+  List<Auto> title = [];
+  List widgets = <Widget>[];
 
   @override
   void initState() {
     super.initState();
-    print("initState>>>>>>>>>>>>>>>>>>>>>>>");
-    widgets.clear();
-    for (int i = 0; i < 10; i++) {
-      widgets.add(getRow(i,context));
-    }
+    getContent();
   }
   @override
   Widget build(BuildContext context) {
-    print("build>>>>>>>>>>>>>>>>>>>>>>>" + todos.length.toString() + "......" + widgets.length.toString());
+    print("build>>>>>>>>>>>>>>>>>>>>>>>" + title.length.toString() + "......" + widgets.length.toString());
 
     return Scaffold(
       appBar: AppBar(
         title: Text('EmailScreen'),
       ),
       body: TodosScreen(
-        todos: todos,
+        titles: title,
         widgets: widgets,
       ),
     );
@@ -44,7 +44,7 @@ class EmailScreenState extends State<EmailScreen> {
     return GestureDetector(
       child: Padding(
           padding: EdgeInsets.all(10.0),
-          child: Text(todos[i].title,textAlign: TextAlign.center)),
+          child: Text(title[i].title,textAlign: TextAlign.center)),
       onTap: () {
         // setState(() {
         //   widgets.add(getRow(widgets.length + 1,context));
@@ -56,7 +56,7 @@ class EmailScreenState extends State<EmailScreen> {
                   // builder: (context) => DetailScreen(todo: todos[i]),
                   builder: (context) =>
 
-                  DetailScreen(todo: todos[i]),
+                  DetailScreen(title: title[i]),
 
                 //    NativeWebView(webUrl:"https://www.baidu.com/",
                 //   webRect:Rect.fromLTWH(0.0, 0.0, MediaQuery.of(context).size.width,
@@ -69,6 +69,27 @@ class EmailScreenState extends State<EmailScreen> {
     );
   }
 
+
+  //获取网络数据,这个接口可能会过一段时间就发生变化,用的别人接口
+  void getContent() {
+    NetUtil.get("https://www.apiopen.top/journalismApi", (data) {
+      print("title>>>>>>NetUtils");
+
+      Entity user = Entity.fromJson(data);
+      setState(() {
+        title = user.data.auto;
+        print("title>>>>>>" + title.length.toString());
+
+        widgets.clear();
+        for (int i = 0; i < title.length; i++) {
+          widgets.add(getRow(i,context));
+        }
+      });
+    }, errorCallBack: (errorMsg) {
+      print("error:" + errorMsg);
+    });
+  }
+
 }
 
 
@@ -76,18 +97,19 @@ class EmailScreenState extends State<EmailScreen> {
 
 // 跳转到第二个页面传递数据
 // Data
-class Todo {
-  final String title;
-  final String description;
+// class Todo {
+//   final String title;
+//   final String description;
 
-  Todo(this.title, this.description);
-}
+//   Todo(this.title, this.description);
+// }
 
 class TodosScreen extends StatelessWidget {
-  final List<Todo> todos;
+  // final List<Todo> todos;
   final List<Widget> widgets;
+  List<Auto> titles;
 
-  TodosScreen({Key key, @required this.todos,@required this.widgets}) : super(key: key);
+  TodosScreen({Key key, @required this.titles,@required this.widgets}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -155,21 +177,22 @@ class TodosScreen extends StatelessWidget {
 
 class DetailScreen extends StatelessWidget {
   // Declare a field that holds the Todo.
-  final Todo todo;
+  // final Todo todo;
+  final Auto title;
 
   // In the constructor, require a Todo.
-  DetailScreen({Key key, @required this.todo}) : super(key: key);
+  DetailScreen({Key key, @required this.title}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     // Use the Todo to create the UI.
     return Scaffold(
       appBar: AppBar(
-        title: Text(todo.title),
+        title: Text(title.title),
       ),
       body: Padding(
         padding: EdgeInsets.all(16.0),
-        child: Text(todo.description),
+        child: Text(title.link),
       ),
     );
   }

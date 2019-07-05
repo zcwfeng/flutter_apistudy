@@ -7,78 +7,63 @@ class NewsScreen extends StatefulWidget {
   @override
   State<StatefulWidget> createState() => NewsScreenState();
 }
-TabController _tabController;
 class NewsScreenState extends State<NewsScreen> with SingleTickerProviderStateMixin{
 
   Data pageData;
 
   final List<Tab> myTabs = [];
+  List<String> tabTitles;
+  TabController mController;
 
-  
 
  @override
  void dispose() {
-   _tabController.dispose();
+   mController.dispose();
    super.dispose();
  }
 
   @override
   void initState() {
     super.initState();
-   
-    
+    initTabData();
+    mController = TabController(
+      length: tabTitles.length,
+      vsync: this,
+    );
+
+
     getContent();
 
   }
 
-  
+  initTabData(){
+    tabTitles = [
+          '科技',
+          '汽车',
+          '财经',
+          '八卦',
+          '军事',
+          '娱乐',
+          '头条'
+        ];
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('News'),
-        bottom: TabBar(
-          controller: _tabController,
-          tabs: myTabs,
-        ),
-      ),
-      body: TabBarView(
-        controller: _tabController,
-        children: myTabs.map((Tab tab) {
-
-          List widgets = <Widget>[];
-          for (int i = 0; i < 8; i++) {
-            widgets.add(getRow(i,context));
-          }
-          return TabView(data: pageData,widgets: widgets,);
-        }).toList(),
-      ),
+      appBar: _appBarView(),
+      body: _tabBarView(),
     );
   }
 
 
-  Tab getCustomTab(String title){
-    return Tab(
-      text: title,
-    );
-  }
+
   //获取网络数据,这个接口可能会过一段时间就发生变化,用的别人接口
   void getContent() {
     NetUtil.get("https://www.apiopen.top/journalismApi", (data) {
       Entity user = Entity.fromJson(data);
       setState(() {
         pageData = user.data;
-        // 留下一个bug暂时,想遍历Data 子对象动态赋值
-        // Data data = user.data;
-        // for (int i = 0; i < user.data.; i++) {
-        //   // myTabs.add(getCustomTab(title.));
-        // }
-
-        for(int i=0;i< 8;i++) {
-          myTabs.add(getCustomTab("tech"));
-        }
-        _tabController = TabController(vsync: this, length: myTabs.length);
-
 
       });
     }, errorCallBack: (errorMsg) {
@@ -113,36 +98,70 @@ class NewsScreenState extends State<NewsScreen> with SingleTickerProviderStateMi
   }
 
 
-}
 
-
-
-class TabView extends StatelessWidget{
-  List<Auto> title;//TODO: 动态更换
-  final List widgets;
-  final Data data;
-  TabView({Key key,this.data,this.widgets});
-
-
-
-    @override
-  Widget build(BuildContext context) {
-    title = data.auto;
-    print("build>>>>>>>>>>>>>>>>>>>>>>>" + title.length.toString() + "......" + widgets.length.toString());
-
-
-    return Scaffold(
-      // appBar: AppBar(
-      //   title: Text('News'),
-      // ),
-      body: TodosScreen(
-        titles: title,
-        widgets: widgets,
-      ),
+Widget _appBarView() {
+    return AppBar(
+      title: Text("每日新闻",
+          style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+      elevation: 0,
+      bottom: _tabBar(),
     );
   }
 
+  Widget _tabBar() {
+    return TabBar(
+        //设置tab是否可水平滑动
+        isScrollable: true,
+        //控制器
+        controller: mController,
+        //设置tab文字得类型
+        labelStyle: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+        //设置tab选中得颜色
+        labelColor: Colors.black,
+        //设置tab未选中得颜色
+        unselectedLabelColor: Colors.black45,
+        //设置自定义tab的指示器，CustomUnderlineTabIndicator
+        //若不需要自定义，可直接通过
+        //indicatorColor 设置指示器颜色
+        //indicatorWight 设置指示器厚度
+        //indicatorPadding
+        //indicatorSize  设置指示器大小计算方式
+        indicator: UnderlineTabIndicator(
+            // strokeCap: StrokeCap.round,
+            insets: EdgeInsets.only(left: 15, right: 15),
+            borderSide: BorderSide(width: 5.0, color: Colors.white)),
+        tabs: tabTitles.map((item) {
+          return Tab(text: item);
+        }).toList());
+  }
 
+  Widget _tabBarView() {
+    //下划线widget预定义以供复用。
+    Widget divider1=Divider(color: Colors.blue,);
+    Widget divider2=Divider(color: Colors.green);
+    setState(() {
+      print("tabBarView....................setState");
+    });
+    return TabBarView(
+      controller: mController,
+      children: tabTitles.map((item) {
+        return Container(
+          // color: _getColor(),
+          child: ListView.separated(
+                // itemCount: widgets.length,
+                itemCount: 10,
+                itemBuilder: (BuildContext context, int position) {
+                  return getRow(position,context);
+                },
+                //分割器构造器
+                separatorBuilder: (BuildContext context, int index) {
+                  return index%2==0?divider1:divider2;
+                },
+            ),
+        );
+      }).toList(),
+    );
+  }
 
 }
 
@@ -165,7 +184,6 @@ class TodosScreen extends StatelessWidget {
       // appBar: AppBar(
       //   title: Text('Todos'),
       // ),
-
       body:
       Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -188,9 +206,6 @@ class TodosScreen extends StatelessWidget {
         )
     );
   }
-
-
-
 }
 
 

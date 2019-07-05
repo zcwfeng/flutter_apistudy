@@ -39,7 +39,7 @@ class _DefaultStylePageState extends State<DefaultStylePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: Text(widget.title,style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
       ),
       body: new Container(
         child: new Column(

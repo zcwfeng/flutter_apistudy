@@ -45,39 +45,39 @@ class BottomNavigationWidgetState extends State<BottomNavigationWidget> {
                 items: [
                   BottomNavigationBarItem(
                       icon: Icon(
-                        Icons.home,
+                        Icons.widgets,
                         color: _bottomNavigationColor,
                       ),
                       title: Text(
-                        'HOME',
-                        style: TextStyle(color: _bottomNavigationColor),
+                        'WASTE',
+                        style: TextStyle(color: _bottomNavigationColor,fontSize: 12, fontWeight: FontWeight.bold),
                       )),
                   BottomNavigationBarItem(
                       icon: Icon(
-                        Icons.email,
+                        Icons.message,
                         color: _bottomNavigationColor,
                       ),
                       title: Text(
-                        'Email',
-                        style: TextStyle(color: _bottomNavigationColor),
+                        'NEWS',
+                        style: TextStyle(color: _bottomNavigationColor,fontSize: 12, fontWeight: FontWeight.bold),
                       )),
                   BottomNavigationBarItem(
                       icon: Icon(
-                        Icons.pages,
+                        Icons.work,
                         color: _bottomNavigationColor,
                       ),
                       title: Text(
-                        'PAGES',
-                        style: TextStyle(color: _bottomNavigationColor),
+                        'WEATHER',
+                        style: TextStyle(color: _bottomNavigationColor,fontSize: 12, fontWeight: FontWeight.bold),
                       )),
                   BottomNavigationBarItem(
                       icon: Icon(
-                        Icons.airplay,
+                        Icons.calendar_today,
                         color: _bottomNavigationColor,
                       ),
                       title: Text(
-                        'AIRPLAY',
-                        style: TextStyle(color: _bottomNavigationColor),
+                        'CALENDAR',
+                        style: TextStyle(color: _bottomNavigationColor,fontSize: 12, fontWeight: FontWeight.bold),
                       )),
                 ],
                 currentIndex: _currentIndex,

@@ -12,7 +12,7 @@ class AlarmsScreenState extends State<AlarmsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('AlarmsScreen'),
+        title: Text('天气预报',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
       ),
       body: MaterialApp(
         title: 'AlarmsScreen',

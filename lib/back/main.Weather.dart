@@ -6,15 +6,27 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:image_picker/image_picker.dart';
 import '../data/weather_info.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-//1
-class AlarmsScreen extends StatefulWidget {
+
+void main() => runApp(new MyApp());
+
+class MyApp extends StatelessWidget {
   @override
-  State<StatefulWidget> createState() => AlarmsScreenState();
+  Widget build(BuildContext context) {
+      return new HomePage();
+  }
 }
 
-class AlarmsScreenState extends State<AlarmsScreen> {
 
-   double screenWidth = 0.0;
+
+class HomePage extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() {
+    return new _HomePageState();
+  }
+}
+
+class _HomePageState extends State<HomePage> {
+  double screenWidth = 0.0;
   File _image;
   List citiesMap;
   WeatherInfo weatherInfo = new WeatherInfo(
@@ -44,17 +56,20 @@ class AlarmsScreenState extends State<AlarmsScreen> {
     _loadStudent();
   }
 
-
   @override
   Widget build(BuildContext context) {
     final searchController = TextEditingController();
     final theme = Theme.of(context);
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('天气预报',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
-      ),
-      resizeToAvoidBottomPadding: false, //false键盘弹起不重新布局 避免挤压布局
-      body: new Stack(
+    return new MaterialApp(
+      home: new Scaffold(
+//        floatingActionButton: new FloatingActionButton(
+//
+//          onPressed: getImage,
+//          tooltip: 'Pick Image',
+//          child: new Icon(Icons.photo_library),
+//        ),
+        resizeToAvoidBottomPadding: false, //false键盘弹起不重新布局 避免挤压布局
+        body: new Stack(
           children: <Widget>[
             new Container(
               child: _image == null
@@ -185,11 +200,11 @@ class AlarmsScreenState extends State<AlarmsScreen> {
             ),
           ],
         ),
+      ),
     );
   }
 
-
-List<Widget> _buildFutureWeathers(List<Weather> weathers) {
+  List<Widget> _buildFutureWeathers(List<Weather> weathers) {
     List<Widget> widgets = new List();
     if (weathers.length > 0) {
       int index = 0;
@@ -346,7 +361,4 @@ List<Widget> _buildFutureWeathers(List<Weather> weathers) {
       print("=============" + exception.toString() + "===============");
     }
   }
-
 }
-
-

@@ -15,18 +15,43 @@ version: 1.0.0+1
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
+  # sdk: ">=2.0.0-dev.68.0 <3.0.0"
 
 dependencies:
+  http: ^0.12.0+1
   flutter:
     sdk: flutter
+  sqflite: ^1.1.0
+  path: 1.6.2
+  transparent_image: ^1.0.0
+  cached_network_image: ^0.8.0
+  flutter_redux: ^0.5.3
+  flutter_calendar: ^0.0.1
+  # flutter_inappbrowser: ^1.1.0 不兼容
+  dio: ^1.0.0 #网络请求
+  json_serializable: ^2.0.0
+  build_runner: ^1.0.0
+  flutter_custom_calendar:
+    git:
+      url: https://github.com/LXD312569496/flutter_custom_calendar.git
+
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
-
+  flutter_staggered_grid_view: "^0.2.7"
+  image_picker: ^0.4.10
+  shared_preferences: ^0.4.3
+  # json_annotation: ^1.0.0
+  video_player: ^0.10.1+5
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  test: ^1.5.0
+  mockito: ^4.1.0
+  muses_weather_flutter:
+    git:
+      url: https://github.com/KinsomyJS/muses_weather_flutter.git
 
 
 # For information on the generic Dart part of this file, see the
@@ -41,8 +66,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #  - images/a_dot_burr.jpeg
+  assets:
+  #  - images/cat_template.jpg
+   - images/
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

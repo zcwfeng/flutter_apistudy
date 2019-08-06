@@ -23,6 +23,7 @@ class _DefaultStylePageState extends State<DefaultStylePage> {
 
   @override
   void initState() {
+    super.initState();
     text = "${DateTime.now().year}年${DateTime.now().month}月";
 
     controller = new CalendarController();

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 // import 'package:transparent_image/transparent_image.dart';
-import 'package:cached_network_image/cached_network_image.dart';
-import 'package:path/path.dart' as prefix0;
+// import 'package:cached_network_image/cached_network_image.dart';
+// import 'package:path/path.dart' as prefix0;
 const wastDetails =
 ["有害垃圾主要是指废旧电池、荧光灯管、水银温度计、废油漆桶、腐蚀性洗涤剂、医院垃圾、过期药品、含辐 射性废弃物等。",
 "湿垃圾就是有机垃圾，指日常生活垃圾中可分解的有机物质部分，包括食物残渣、菜根、菜叶，动物蹄、角、瓜皮、果屑、蛋壳、鱼鳞、蛋壳、毛发、植物枝干、树叶、杂草、动物尸体、牲畜粪便等。",
@@ -156,7 +156,8 @@ class SelectionButton extends StatelessWidget {
   _navigateAndDisplaySelection(BuildContext context) async {
     // Navigator.push returns a Future that completes after calling
     // Navigator.pop on the Selection Screen.
-    final result = await Navigator.push(
+    // final result = 
+    await Navigator.push(
       context,
       // Create the SelectionScreen in the next step.
       MaterialPageRoute(builder: (context) => SelectionScreen()),

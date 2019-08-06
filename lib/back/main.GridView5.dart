@@ -39,7 +39,7 @@ class HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    List<String> datas = getDataList();
+    // List<String> datas = getDataList();
     return Scaffold(
       appBar: AppBar(
         title: Text('HomeScreen'),

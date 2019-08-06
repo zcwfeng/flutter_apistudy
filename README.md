@@ -112,9 +112,46 @@ Framework • revision b712a172f9 (3 weeks ago) • 2019-07-09 13:14:38 -0700
 Engine • revision 54ad777fd2
 Tools • Dart 2.4.0
 ```
+
+更新：2019-07-18
+
+```
+Flutter 1.7.8+hotfix.4 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision 20e59316b8 (3 weeks ago) • 2019-07-18 20:04:33 -0700
+Engine • revision fee001c93f
+Tools • Dart 2.4.0
+```
 如果配置和版本我有更新我会随时更新，写日志
 
 
 # 日志
 
 2019年7月28日 初步测试开发版本0.0.1
+
+2019年8月6日 升级dart环境
+
+在VSCode 上使用了调试功能，学习用了Dart DevTools查看性能等页面信息，发现很多问题
+
+学习使用flutter analyze工具分析代码,并总结
+
+```
+flutter 新手问题：
+
+命令： flutter analyze 帮助你优化代码，提醒你编码规范可读性
+
+
+must_call_super：initState 没有调用super
+
+unused_local_variable 变量声明没有用
+
+deprecated_member_use：由于api变化快迭代有些变量会的deprepared
+missing_return：有的地方没有return
+
+ unnecessary_brace_in_string_interps： 
+比如 print("xxxxx${data}") 字符串不建议添加大括号，使$data即可
+
+non_constant_identifier_names: 编码风格问题
+Linter规则：non_constant_identifier_names
+类成员， 顶级定义， 变量， 参数和命名参数应该大写除第一个单词之外的每个单词的第一个字母，并且不使用分隔符。
+修改代码后可能出现问题，由于是JsonSerializable工具生成代码，可以不优化
+```

@@ -33,6 +33,7 @@ class AlarmsScreenState extends State<AlarmsScreen> {
 
   @override
   void initState() {
+    super.initState();
     _getCityId().then((id) {
       if (id != "") {
         _fetchWeatherInfo(id);

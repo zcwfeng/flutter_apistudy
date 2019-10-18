@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_admob/firebase_admob.dart';
 
 // import 'package:transparent_image/transparent_image.dart';
 //import 'package:cached_network_image/cached_network_image.dart';
@@ -17,12 +18,31 @@ class HomeScreen extends StatefulWidget {
 }
 
 class HomeScreenState extends State<HomeScreen> {
+  BannerAd mBannerAd;
   List<String> getDataList() {
     List<String> list = [];
     for (int i = 0; i < 4; i++) {
       list.add(i.toString());
     }
     return list;
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    FirebaseAdMob.instance
+        .initialize(appId: "ca-app-pub-5553031321204081~1655276535")
+        .then((_) {
+      mBannerAd = BannerAd(
+          adUnitId: "ca-app-pub-5553031321204081/3323581422",
+          size: (AdSize.banner),
+          listener: (event) {
+            debugPrint("Test Ad:" + event.toString());
+          });
+      mBannerAd.load().then((_) {
+        mBannerAd.show();
+      });
+    });
   }
 
   List<Widget> getWidgetList() {

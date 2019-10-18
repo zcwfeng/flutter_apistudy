@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 //import 'package:transparent_image/transparent_image.dart';
-import 'package:cached_network_image/cached_network_image.dart';
+//import 'package:cached_network_image/cached_network_image.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -43,9 +43,9 @@ class HomeScreenState extends State<HomeScreen> {
               //     image: 'https://picsum.photos/250?image=9',
               //   ),
 
-              // child: Image.network(
-              //   'https://picsum.photos/250?image=9',
-              // ),
+              child: Image.network(
+                'https://picsum.photos/250?image=9',
+              ),
 
               // child: Image.asset('images/cat_template.jpg'),
 
@@ -56,10 +56,11 @@ class HomeScreenState extends State<HomeScreen> {
 
               // child: CachedNetworkImage(imageUrl: 'https://picsum.photos/250?image=9'),
 
-              child: CachedNetworkImage(
-                placeholder: (context, url) => CircularProgressIndicator(),
-                imageUrl: 'https://picsum.photos/250?image=9',
-              ),
+              // CachedNetworkImage 不兼容，密切关注
+//              child: CachedNetworkImage(
+//                placeholder: (context, url) => CircularProgressIndicator(),
+//                imageUrl: 'https://picsum.photos/250?image=9',
+//              ),
             ),
           ],
         ));

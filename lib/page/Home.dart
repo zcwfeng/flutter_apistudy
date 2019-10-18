@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_admob/firebase_admob.dart';
+import '../utils/Analytics.dart';
 
 // import 'package:transparent_image/transparent_image.dart';
 //import 'package:cached_network_image/cached_network_image.dart';
@@ -30,6 +31,8 @@ class HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
+    analytics.logEvent(name: 'component', parameters: {'home': "ad_banner"});
+
     FirebaseAdMob.instance
         .initialize(appId: "ca-app-pub-5553031321204081~1655276535")
         .then((_) {

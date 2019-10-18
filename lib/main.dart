@@ -4,11 +4,13 @@ import 'page/Home.dart';
 import 'page/Second.dart';
 import 'page/Third.dart';
 import 'page/Fouth.dart';
+import 'utils/Analytics.dart';
 
 void main() {
   runApp(MaterialApp(
     title: 'Navigation Basics',
     home: BottomNavigationWidget(),
+    navigatorObservers: <NavigatorObserver>[observer],
   ));
 }
 

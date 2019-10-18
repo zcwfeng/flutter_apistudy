@@ -34,13 +34,17 @@ class HomeScreenState extends State<HomeScreen> {
         .initialize(appId: "ca-app-pub-5553031321204081~1655276535")
         .then((_) {
       mBannerAd = BannerAd(
-          adUnitId: "ca-app-pub-5553031321204081/3323581422",
+          adUnitId: BannerAd.testAdUnitId,
+//          adUnitId: "ca-app-pub-5553031321204081/3323581422",
           size: (AdSize.banner),
           listener: (event) {
             debugPrint("Test Ad:" + event.toString());
           });
       mBannerAd.load().then((_) {
-        mBannerAd.show();
+        mBannerAd.show(
+            anchorOffset: 100.0,
+            horizontalCenterOffset: 0.0,
+            anchorType: AnchorType.bottom);
       });
     });
   }

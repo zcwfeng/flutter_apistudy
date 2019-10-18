@@ -1,5 +1,4 @@
-
-import 'package:test/test.dart';
+import 'package:test_api/test_api.dart';
 import 'package:http/http.dart' as http;
 import 'package:mockito/mockito.dart';
 import 'dart:async';
@@ -36,7 +35,6 @@ main() {
   });
 }
 
-
 Future<Post> fetchPost(http.Client client) async {
   final response =
       await client.get('https://jsonplaceholder.typicode.com/posts/1');
@@ -55,7 +53,7 @@ class Post {
   final String body;
   final int userId;
   final String title;
-  Post({this.userId,this.id, this.title,this.body});
+  Post({this.userId, this.id, this.title, this.body});
 
   factory Post.fromJson(Map<String, dynamic> json) {
     return Post(

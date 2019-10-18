@@ -121,6 +121,55 @@ Framework • revision 20e59316b8 (3 weeks ago) • 2019-07-18 20:04:33 -0700
 Engine • revision fee001c93f
 Tools • Dart 2.4.0
 ```
+更新：2019年10月18日 切换到master
+
+    Flutter (Channel master, v1.10.15-pre.151, on Mac OS X 10.14.6 18G103, locale zh-Hans-CN)
+        • Flutter version 1.10.15-pre.151 at /Users/admin/workspace_temp/flutter
+        • Framework revision a4d5266b76 (23 hours ago), 2019-10-17 01:13:06 -0400
+        • Engine revision 3a357afc03
+        • Dart version 2.6.0 (build 2.6.0-dev.8.0 f020ce5d23)
+        
+> 依赖配置
+
+    dependencies:
+      http: ^0.12.0+2
+      flutter:
+        sdk: flutter
+      sqflite: ^1.1.7+1
+      path: ^1.6.4
+      transparent_image: ^1.0.0
+      cached_network_image: ^1.1.2+1
+      flutter_redux: ^0.5.3
+      flutter_calendar: ^0.0.8
+      # flutter_inappbrowser: ^1.1.0 不兼容
+      dio: ^3.0.3 #网络请求
+      json_serializable: ^3.2.3
+      build_runner: ^1.7.2
+      flutter_custom_calendar:
+        git:
+          url: https://github.com/LXD312569496/flutter_custom_calendar.git
+    
+    
+      # The following adds the Cupertino Icons font to your application.
+      # Use with the CupertinoIcons class for iOS style icons.
+      cupertino_icons: ^0.1.2
+      flutter_staggered_grid_view: "^0.3.0"
+      image_picker: ^0.6.1+8
+      shared_preferences: ^0.5.3+5
+      # json_annotation: ^1.0.0
+      video_player: ^0.10.2+5
+    dev_dependencies:
+      flutter_test:
+        sdk: flutter
+    #  test: ^1.6.11
+      mockito: ^4.1.1
+      muses_weather_flutter:
+        git:
+          url: https://github.com/KinsomyJS/muses_weather_flutter.git
+          
+> 配置.gitignore 去掉pubspec.lock 等dart编译环境提交
+
+
 如果配置和版本我有更新我会随时更新，写日志
 
 
@@ -155,3 +204,5 @@ Linter规则：non_constant_identifier_names
 类成员， 顶级定义， 变量， 参数和命名参数应该大写除第一个单词之外的每个单词的第一个字母，并且不使用分隔符。
 修改代码后可能出现问题，由于是JsonSerializable工具生成代码，可以不优化
 ```
+
+2019年10月18日 升级flutter 修复升级后无法编译问题，修改合并develop分支到master，项目升级稳定版。注释掉暂时不兼容AndroidX的插件

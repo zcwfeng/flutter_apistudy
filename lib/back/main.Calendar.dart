@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_calendar/flutter_calendar.dart';
 
 main() {
-  runApp(new CalendarViewApp());
+  runApp(CalendarViewApp());
 }
 
 class CalendarViewApp extends StatelessWidget {
@@ -12,53 +12,53 @@ class CalendarViewApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return new MaterialApp(
+    return MaterialApp(
       title: 'Flutter Demo',
-      theme: new ThemeData(
+      theme: ThemeData(
         primarySwatch: Colors.purple,
       ),
-      home: new Scaffold(
-        appBar: new AppBar(
-          title: new Text('Flutter Calendar'),
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Flutter Calendar'),
         ),
-        body: new Container(
-          margin: new EdgeInsets.symmetric(
+        body: Container(
+          margin: EdgeInsets.symmetric(
             horizontal: 5.0,
             vertical: 10.0,
           ),
-          child: new ListView(
+          child: ListView(
             shrinkWrap: true,
             children: <Widget>[
-              new Text('The Default Calendar:'),
-              new Calendar(
+              Text('The Default Calendar:'),
+              Calendar(
                 onSelectedRangeChange: (range) =>
                     print("Range is ${range.item1}, ${range.item2}"),
                 onDateSelected: (date) => handleNewDate(date),
               ),
-              new Divider(
+              Divider(
                 height: 50.0,
               ),
-              new Text('The Expanded Calendar:'),
-              new Calendar(
+              Text('The Expanded Calendar:'),
+              Calendar(
                 onSelectedRangeChange: (range) =>
                     print("Range is ${range.item1}, ${range.item2}"),
                 isExpandable: true,
               ),
-              new Divider(
+              Divider(
                 height: 50.0,
               ),
-              new Text('A Custom Weekly Calendar:'),
-              new Calendar(
+              Text('A Custom Weekly Calendar:'),
+              Calendar(
                 onSelectedRangeChange: (range) =>
                     print("Range is ${range.item1}, ${range.item2}"),
                 isExpandable: true,
                 dayBuilder: (BuildContext context, DateTime day) {
-                  return new InkWell(
+                  return InkWell(
                     onTap: () => print("OnTap ${day}"),
-                    child: new Container(
-                      decoration: new BoxDecoration(
-                          border: new Border.all(color: Colors.black38)),
-                      child: new Text(
+                    child: Container(
+                      decoration: BoxDecoration(
+                          border: Border.all(color: Colors.black38)),
+                      child: Text(
                         day.day.toString(),
                       ),
                     ),

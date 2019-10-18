@@ -3,7 +3,9 @@ import 'package:flutter_custom_calendar/flutter_custom_calendar.dart';
 
 main() {
   runApp(MaterialApp(
-    home: DefaultStylePage(title: "日历",),
+    home: DefaultStylePage(
+      title: "日历",
+    ),
   ));
 }
 
@@ -47,19 +49,19 @@ class _DefaultStylePageState extends State<DefaultStylePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: new Container(
-        child: new Column(
+      body: Container(
+        child: Column(
           children: <Widget>[
-            new Row(
+            Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                new IconButton(
+                IconButton(
                     icon: Icon(Icons.navigate_before),
                     onPressed: () {
                       controller.moveToPreviousMonth();
                     }),
-                new Text(text),
-                new IconButton(
+                Text(text),
+                IconButton(
                     icon: Icon(Icons.navigate_next),
                     onPressed: () {
                       controller.moveToNextMonth();
@@ -69,7 +71,7 @@ class _DefaultStylePageState extends State<DefaultStylePage> {
             CalendarViewWidget(
               calendarController: controller,
             ),
-            new Text(
+            Text(
                 "单选模式\n选中的时间:\n${controller.getSingleSelectCalendar().toString()}"),
           ],
         ),

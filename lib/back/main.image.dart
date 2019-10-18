@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:transparent_image/transparent_image.dart';
+//import 'package:transparent_image/transparent_image.dart';
 import 'package:cached_network_image/cached_network_image.dart';
+
 void main() {
   runApp(MaterialApp(
     title: 'Navigation Basics',
     home: HomeScreen(),
   ));
 }
+
 //1
 class HomeScreen extends StatefulWidget {
   @override
@@ -14,17 +16,13 @@ class HomeScreen extends StatefulWidget {
 }
 
 class HomeScreenState extends State<HomeScreen> {
-
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('HomeScreen'),
-      ),
-      body:
-        Stack(
+        appBar: AppBar(
+          title: Text('HomeScreen'),
+        ),
+        body: Stack(
           children: <Widget>[
             Center(child: CircularProgressIndicator()),
 
@@ -59,24 +57,11 @@ class HomeScreenState extends State<HomeScreen> {
               // child: CachedNetworkImage(imageUrl: 'https://picsum.photos/250?image=9'),
 
               child: CachedNetworkImage(
-                  placeholder: (context, url) => CircularProgressIndicator(),
-                  imageUrl: 'https://picsum.photos/250?image=9',
-                ),
+                placeholder: (context, url) => CircularProgressIndicator(),
+                imageUrl: 'https://picsum.photos/250?image=9',
+              ),
             ),
           ],
-        )
-
-    );
+        ));
   }
 }
-
-
-
-
-
-
-
-
-
-
-

@@ -31,14 +31,14 @@ class HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
-    analytics.logEvent(name: 'component', parameters: {'home': "ad_banner"});
+    analytics.logEvent(name: 'home', parameters: {'homepage': "ad_banner"});
 
     FirebaseAdMob.instance
         .initialize(appId: "ca-app-pub-5553031321204081~1655276535")
         .then((_) {
       mBannerAd = BannerAd(
-          adUnitId: BannerAd.testAdUnitId,
-//          adUnitId: "ca-app-pub-5553031321204081/3323581422",
+//          adUnitId: BannerAd.testAdUnitId,
+          adUnitId: "ca-app-pub-5553031321204081/3323581422",
           size: (AdSize.banner),
           listener: (event) {
             debugPrint("Test Ad:" + event.toString());

@@ -40,7 +40,8 @@ class _DefaultStylePageState extends State<DefaultStylePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title,style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+        title: Text(widget.title,
+            style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
       ),
       body: new Container(
         child: new Column(
@@ -64,8 +65,7 @@ class _DefaultStylePageState extends State<DefaultStylePage> {
             CalendarViewWidget(
               calendarController: controller,
             ),
-            new Text(
-                "单选模式\n选中的时间:\n${controller.getSingleSelectCalendar().toString()}"),
+            buildText(),
           ],
         ),
       ),
@@ -75,5 +75,28 @@ class _DefaultStylePageState extends State<DefaultStylePage> {
         child: Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
+  }
+
+  Text buildText() {
+    var year = "";
+    var month = "";
+    var day = "";
+    if (controller.getSingleSelectCalendar() != null) {
+      if (controller.getSingleSelectCalendar().year != null) {
+        year = controller.getSingleSelectCalendar().year.toString();
+      }
+
+      if (controller.getSingleSelectCalendar().month != null) {
+        month = controller.getSingleSelectCalendar().month.toString();
+      }
+
+      if (controller.getSingleSelectCalendar().day != null) {
+        day = controller.getSingleSelectCalendar().day.toString();
+      }
+    }
+    if (year.isEmpty || month.isEmpty || day.isEmpty) {
+      return new Text("选择日期");
+    }
+    return new Text("选中的时间:${year}年${month}月${day}日");
   }
 }

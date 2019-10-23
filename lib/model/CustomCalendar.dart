@@ -104,23 +104,22 @@ class _DefaultStylePageState extends State<DefaultStylePage> {
             CalendarViewWidget(
               calendarController: controller,
             ),
-            Expanded(
-                child: Text(
-              buildText(),
-              overflow: TextOverflow.ellipsis,
-              maxLines: 2,
-              style: TextStyle(
-                fontSize: 16,
-              ),
-            ))
+//            Text(
+//              buildText(),
+//              overflow: TextOverflow.ellipsis,
+//              maxLines: 2,
+//              style: TextStyle(
+//                fontSize: 16,
+//              ),
+//            ),
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+//      floatingActionButton: FloatingActionButton(
+//        onPressed: () {},
+//        tooltip: 'Increment',
+//        child: Icon(Icons.add),
+//      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 

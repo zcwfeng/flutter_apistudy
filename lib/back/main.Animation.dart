@@ -24,7 +24,13 @@ class MyHomePage extends StatefulWidget {
   _MyHomePageState createState() => _MyHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin{
+/*
+使用 CurvedAnimation 来实现一个曲线插值的动画。在这种情况下，控制器决定了动画进度，
+CurvedAnimation 计算用于替换控制器默认线性动画的曲线值。和 Widget 一样，Flutter 中的动画效果也可以组合使用。
+在构建 Widget 树的时候，你需要将 Animation 对象赋值给某个 Widget 的动画属性，
+例如 FadeTransition 的不透明度属性，并让控制器开始动画。
+*/
+class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
   AnimationController controller;
   CurvedAnimation curve;
 
@@ -32,16 +38,14 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin{
   void initState() {
     super.initState();
     controller = AnimationController(
-      duration: const Duration(milliseconds: 2000), vsync: this
-      );
+        duration: const Duration(milliseconds: 2000), vsync: this);
 
-    curve = CurvedAnimation(parent: controller, curve: Curves.easeIn);
+    curve = CurvedAnimation(
+        parent: controller, curve: Curves.easeIn); // controller 插值
   }
-
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
@@ -57,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin{
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: (){
+        onPressed: () {
           controller.forward();
         },
         tooltip: 'Face',

@@ -48,6 +48,14 @@ dependencies:
   shared_preferences: ^0.5.3+5
   # json_annotation: ^1.0.0
   video_player: ^0.10.2+5
+  # 国际化
+  intl_translation: ^0.17.2
+  intl: ^0.15.0
+#  intl: ^0.16.0
+#  Because flutter_calendar 0.0.8 depends on intl ^0.15.0 and no versions of flutter_calendar match >0.0.8 <0.1.0, flutter_calendar ^0.0.8 requires intl ^0.15.0.
+#  So, because flutter_apistudy depends on both flutter_calendar ^0.0.8 and intl ^0.16.0, version solving failed.
+  flame: ^0.18.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

@@ -205,4 +205,26 @@ Linter规则：non_constant_identifier_names
 修改代码后可能出现问题，由于是JsonSerializable工具生成代码，可以不优化
 ```
 
+
+
+
 2019年10月18日 升级flutter 修复升级后无法编译问题，修改合并develop分支到master，项目升级稳定版。注释掉暂时不兼容AndroidX的插件
+
+
+
+# 分支学习
+
+--------------------------------------------------------------------------------------------------------
+develop
+https://pub.dev/  
+获取包
+------------------------------
+Flutter 1.16.4-pre.69 • channel master • https://github.com/flutter/flutter.git
+Framework • revision 19e7db585d (13 hours ago) • 2020-04-01 11:16:01 -0700
+Engine • revision c9506cb8e9
+Tools • Dart 2.8.0 (build 2.8.0-dev.18.0 eea9717938)
+------------------------------
+
+添加游戏框架 2020-04-02
+  
+  flame: ^0.18.2

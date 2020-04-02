@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_apistudy/data/Constants.dart';
+import '../i10n/localization_intl.dart';
+// import 'package:flutter_localizations/flutter_localizations.dart';
 
 void main() => runApp(MyApp());
 
@@ -7,11 +9,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Text',
+      title: "title",
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Text'),
+      home: MyHomePage(title: "文本"),
+      localizationsDelegates: [
+        DemoLocalizationsDelegate(),
+        // GlobalMaterialLocalizations.delegate,
+        // GlobalWidgetsLocalizations.delegate,
+      ],
+      supportedLocales: [const Locale('en', 'US'), const Locale('zh', '')],
     );
   }
 }
@@ -28,9 +36,10 @@ class _MyHomePageState extends State<MyHomePage> {
   String textToShow = "I Like Flutter";
 
   void _updateText() {
-    // textToShow = "Flutter is Awesome";
+    DemoLocalizations demoLocalizations = DemoLocalizations.of(context);
+    String result = demoLocalizations.title();
     setState(() {
-      textToShow = "Flutter is Awesome," + Strings.welcomeMessage;
+      textToShow = "Flutter is Awesome," + Strings.welcomeMessage + result;
     });
   }
 

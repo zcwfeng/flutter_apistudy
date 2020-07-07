@@ -23,4 +23,19 @@ void main() {
       expect(counter.value, -1);
     });
   });
+
+   var array = [23,45,678,9,32,2];
+   for(int j=0;j<array.length;++j) {
+     for(int i=j+1;i<array.length;++i) {
+       if(array[i] > array[j]) {
+         var temp = array[i];
+         array[i] = array[j];
+         array[j] = temp;
+       }
+     }
+   }
+
+   for(var i in array) {
+     print(i);
+   }
 }

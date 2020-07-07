@@ -11,7 +11,7 @@ void main() {
     home: BottomNavigationWidget(),
   ));
 }
-
+int a;
 //dev
 class BottomNavigationWidget extends StatefulWidget {
   @override

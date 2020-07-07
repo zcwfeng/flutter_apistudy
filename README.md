@@ -205,9 +205,9 @@ Linter规则：non_constant_identifier_names
 修改代码后可能出现问题，由于是JsonSerializable工具生成代码，可以不优化
 ```
 
-<<<<<<< HEAD
 升级  dio: ^2.1.3 #网络请求
 
-=======
-2019年10月18日 升级flutter 修复升级后无法编译问题，修改合并develop分支到master，项目升级稳定版。注释掉暂时不兼容AndroidX的插件
->>>>>>> 28b7bb058d4d6d44b3b789a607dd22c3d8a194c1
+project_article 测试项目
+
+添加banner
+https://pub.flutter-io.cn/packages/banner_view

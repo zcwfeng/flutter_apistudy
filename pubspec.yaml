@@ -14,21 +14,22 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.0 <3.0.0"
   # sdk: ">=2.0.0-dev.68.0 <3.0.0"
 
 dependencies:
-  http: ^0.12.0+2
+  http: ^0.12.1
   flutter:
     sdk: flutter
   sqflite: ^1.1.7+1
+  banner_view: "^1.1.2"
   path: ^1.6.4
   transparent_image: ^1.0.0
   cached_network_image: ^1.1.2+1
   flutter_redux: ^0.5.3
   flutter_calendar: ^0.0.8
   # flutter_inappbrowser: ^1.1.0 不兼容
-  dio: ^3.0.3 #网络请求
+  dio: ^3.0.9 #网络请求
   json_serializable: ^3.2.3
   build_runner: ^1.7.2
   flutter_custom_calendar:

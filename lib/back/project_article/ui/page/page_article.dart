@@ -1,8 +1,10 @@
 import 'package:banner_view/banner_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_apistudy/back/project_article/http/api.dart';
+import 'package:flutter_apistudy/back/project_article/ui/page/page_webview.dart';
 import 'package:flutter_apistudy/back/project_article/ui/widget/article_item.dart';
 
+/// banner json: https://www.wanandroid.com/banner/json
 class ArticlePage extends StatefulWidget {
   @override
   _ArticlePageState createState() => _ArticlePageState();
@@ -136,7 +138,16 @@ class _ArticlePageState extends State<ArticlePage> {
     //map:转换 ,将List中的每一个条目执行 map方法参数接收的这个方法,这个方法返回T类型，
     //map方法最终会返回一个  Iterable<T>
     List<Widget> list = banners.map((item){
-       return Image.network(item['imagePath'],fit:BoxFit.cover);
+
+        return InkWell(
+          child: Image.network(item['imagePath'],fit:BoxFit.cover),
+          onTap: (){
+            Navigator.of(context).push(new MaterialPageRoute(builder: (context){
+                return WebViewPage(item);
+            }));
+          },
+        );
+
     }).toList();
     return list.isNotEmpty? BannerView(
         list,

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-
+import 'package:flutter_apistudy/back/project_article/ui/page/page_webview.dart';
+///https://www.wanandroid.com/article/list/1/json
+///单个文章
 class ArticleItem extends StatelessWidget {
   final itemData;
 
@@ -55,7 +57,16 @@ class ArticleItem extends StatelessWidget {
     return new Card(
       ///阴影效果
       elevation: 4.0,
-      child: column,
+      child: InkWell(
+        child: column,
+        onTap: (){
+          itemData['url'] = itemData['link'];
+          Navigator.of(context).push(MaterialPageRoute(builder: (context){
+            return WebViewPage(itemData);
+          }));
+        },
+
+      ),
     );
   }
 }

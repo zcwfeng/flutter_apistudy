@@ -12,6 +12,7 @@ class ArticleApp extends StatelessWidget{
               "文章",
           style: const TextStyle(color: Colors.white)),
         ),
+        drawer: Drawer(),
         body: ArticlePage(),
       )
     );

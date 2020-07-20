@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_apistudy/back/project_article/http/api.dart';
+import 'package:flutter_apistudy/back/project_article/common/http/api.dart';
 import 'package:toast/toast.dart';
 
 class RegisterPage extends StatefulWidget {
@@ -55,6 +55,7 @@ class _RegisterPageState extends State<RegisterPage> {
         FocusScope.of(context).requestFocus(_pwdNode);
       },
       //校验
+      // ignore: missing_return
       validator: (String value) {
         if (value.trim().isEmpty) {
           //错误提示
@@ -80,6 +81,7 @@ class _RegisterPageState extends State<RegisterPage> {
         FocusScope.of(context).requestFocus(_pwd2Node);
       },
       //校验
+      // ignore: missing_return
       validator: (String value) {
         if (value.trim().isEmpty) {
           //错误提示
@@ -105,6 +107,7 @@ class _RegisterPageState extends State<RegisterPage> {
         _click();
       },
       //校验
+      // ignore: missing_return
       validator: (String value) {
         if (value.trim().isEmpty) {
           //错误提示

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_apistudy/back/project_article/event/login_event.dart';
-import 'package:flutter_apistudy/back/project_article/http/api.dart';
+import 'package:flutter_apistudy/back/project_article/common/event/login_event.dart';
+import 'package:flutter_apistudy/back/project_article/common/http/api.dart';
 import 'package:flutter_apistudy/back/project_article/manager/app_manager.dart';
 import 'package:flutter_apistudy/back/project_article/ui/page/page_colledge.dart';
+import 'package:flutter_apistudy/back/project_article/ui/page/tab_bottom/page_colledge_zcw.dart';
 import 'package:flutter_apistudy/back/project_article/ui/page/page_login.dart';
 
 class MainDrawer extends StatefulWidget {

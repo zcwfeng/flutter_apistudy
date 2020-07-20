@@ -1,6 +1,6 @@
 import 'package:banner_view/banner_view.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_apistudy/back/project_article/http/api.dart';
+import 'package:flutter_apistudy/back/project_article/common/http/api.dart';
 import 'package:flutter_apistudy/back/project_article/ui/page/page_webview.dart';
 import 'package:flutter_apistudy/back/project_article/ui/widget/article_item.dart';
 

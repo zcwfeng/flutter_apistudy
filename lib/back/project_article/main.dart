@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_apistudy/back/project_article/manager/app_manager.dart';
-import 'package:flutter_apistudy/back/project_article/ui/page/page_login.dart';
 import 'package:flutter_apistudy/back/project_article/ui/widget/main_drawer.dart';
 import 'ui/page/page_article.dart';
 

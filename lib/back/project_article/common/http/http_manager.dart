@@ -21,14 +21,19 @@ class HttpManager{
 
   PersistCookieJar _persistCookieJar;
 
-  HttpManager._internal(){
+  HttpManager._internal();
+
+  init() async{
     BaseOptions options = BaseOptions(
       baseUrl: Api.baseUrl,
       connectTimeout: 5000,
       receiveTimeout: 3000
     );
     _dio = Dio(options);
-    _initDio();
+    Directory directory = await getApplicationDocumentsDirectory();
+    var path = Directory(join(directory.path, "cookie")).path;
+    _persistCookieJar = PersistCookieJar(dir: path);
+    _dio.interceptors.add(CookieManager(_persistCookieJar));
   }
 
   void clearCookies(){
@@ -39,6 +44,9 @@ class HttpManager{
     try {
       Options option = Options(method: method);
       Response response = await _dio.request(url,data:data,options: option);
+      debugPrint("没有设置任何header:--->${response.headers}");
+      debugPrint("请求链接:--->${Api.baseUrl}$url");
+
       return response.data;
     } catch (e) {
       debugPrint("请求异常---->$url");
@@ -46,13 +54,5 @@ class HttpManager{
       return null;
     }
   }
-
-  void _initDio() async{
-    Directory directory = await getApplicationDocumentsDirectory();
-    var path = Directory(join(directory.path, "cookie")).path;
-    _persistCookieJar = PersistCookieJar(dir: path);
-    _dio.interceptors.add(CookieManager(_persistCookieJar));
-  }
-
 
 }

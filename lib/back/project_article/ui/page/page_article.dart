@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_apistudy/back/project_article/common/http/api.dart';
 import 'package:flutter_apistudy/back/project_article/ui/page/page_webview.dart';
 import 'package:flutter_apistudy/back/project_article/ui/widget/article_item.dart';
+import 'package:flutter_apistudy/back/project_article/ui/widget/main_drawer.dart';
+import 'package:toast/toast.dart';
 
 /// banner json: https://www.wanandroid.com/banner/json
 class ArticlePage extends StatefulWidget {
@@ -29,6 +31,9 @@ class _ArticlePageState extends State<ArticlePage> {
   /// 文章总数
   int listTotalSize = 0;
 
+  DateTime _lastClick;
+
+
   @override
   void initState() {
     super.initState();
@@ -50,35 +55,53 @@ class _ArticlePageState extends State<ArticlePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      children: [
-        // loading
-        Offstage(
-          offstage: !_isLoading,
-          child: Center(child: CircularProgressIndicator()),
-        ),
-        Offstage(
-            offstage: _isLoading,
-            child: RefreshIndicator(//下拉刷新
+    return WillPopScope(
+      onWillPop: () async {
+        //在一定的时间内 2s点击两次才能返回
+        if (_lastClick == null ||
+            DateTime.now().difference(_lastClick) > Duration(seconds: 2)) {
+          _lastClick = DateTime.now();
+          Toast.show("请再按一次退出!", context);
+          return false;
+        }
+        return true;
+      },
+      child: Scaffold(
+          appBar: AppBar(
+            title: Text("文章", style: const TextStyle(color: Colors.white)),
+          ),
+          drawer: Drawer(
+            child: MainDrawer(),
+          ),
+          body: Stack(
+            children: [
+              // loading
+              Offstage(
+                offstage: !_isLoading,
+                child: Center(child: CircularProgressIndicator()),
+              ),
+              Offstage(
+                  offstage: _isLoading,
+                  child: RefreshIndicator(
+                      //下拉刷新
 
-                child: ListView.builder(
-                    itemCount: articles.length + 1,//列表视图的个数
-                    itemBuilder:(context,i) => _buildItem(i),//类似adapter，item显示什么？返回widget
-                    controller: _controller,//滑动控制器
-
-                ),
-
-                onRefresh: _pullToRefresh
-            )
-        )
-      ],
+                      child: ListView.builder(
+                        itemCount: articles.length + 1,
+                        //列表视图的个数
+                        itemBuilder: (context, i) => _buildItem(i),
+                        //类似adapter，item显示什么？返回widget
+                        controller: _controller, //滑动控制器
+                      ),
+                      onRefresh: _pullToRefresh))
+            ],
+          )),
     );
   }
 
   // 请求刷新
   Future<void> _pullToRefresh() async {
     curPage = 0;
-    Iterable<Future> futures = [_getBanners(),_getArticleList()];
+    Iterable<Future> futures = [_getBanners(), _getArticleList()];
     await Future.wait(futures);
     _isLoading = false;
     setState(() {});
@@ -123,7 +146,7 @@ class _ArticlePageState extends State<ArticlePage> {
     if (i == 0) {
       return new Container(
 //        height: 180.0,
-        height: MediaQuery.of(context).size.height*0.3,
+        height: MediaQuery.of(context).size.height * 0.3,
         child: _bannerView(),
       );
     }
@@ -134,24 +157,21 @@ class _ArticlePageState extends State<ArticlePage> {
   ///banners是请求到的banner信息组，其中imagePath代表了图片地址
   ///map意为映射，对banners中的数据进行遍历并返回Iterable<?>迭代器，
   ///？则是在map的参数：一个匿名方法中返回的类型
-  Widget _bannerView(){
+  Widget _bannerView() {
     //map:转换 ,将List中的每一个条目执行 map方法参数接收的这个方法,这个方法返回T类型，
     //map方法最终会返回一个  Iterable<T>
-    List<Widget> list = banners.map((item){
-
-        return InkWell(
-          child: Image.network(item['imagePath'],fit:BoxFit.cover),
-          onTap: (){
-            Navigator.of(context).push(new MaterialPageRoute(builder: (context){
-                return WebViewPage(item);
-            }));
-          },
-        );
-
+    List<Widget> list = banners.map((item) {
+      return InkWell(
+        child: Image.network(item['imagePath'], fit: BoxFit.cover),
+        onTap: () {
+          Navigator.of(context).push(new MaterialPageRoute(builder: (context) {
+            return WebViewPage(item);
+          }));
+        },
+      );
     }).toList();
-    return list.isNotEmpty? BannerView(
-        list,
-        intervalDuration:Duration(seconds:2)
-    ):null;
+    return list.isNotEmpty
+        ? BannerView(list, intervalDuration: Duration(seconds: 2))
+        : null;
   }
 }

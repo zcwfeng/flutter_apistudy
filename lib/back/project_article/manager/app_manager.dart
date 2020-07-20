@@ -10,4 +10,8 @@ class AppManager{
     await Api.init();
     prefs = await SharedPreferences.getInstance();
   }
+
+  static isLogin() {
+    return  prefs.getString(ACCOUNT) != null;
+  }
 }

@@ -22,6 +22,11 @@ class _MainDrawerState extends State<MainDrawer> {
       setState(() {
         _username = event.username;
         AppManager.prefs.setString(AppManager.ACCOUNT, _username);
+        if(mounted){
+          setState(() {
+
+          });
+        }
       });
     });
     _username = AppManager.prefs.getString(AppManager.ACCOUNT);

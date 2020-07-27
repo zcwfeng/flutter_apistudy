@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import '../utils/NetUtil.dart';
-import '../data/entity.dart';
+import '../../utils/NetUtil.dart';
+import '../../data/entity.dart';
 
 void main() => runApp(
     SampleApp()

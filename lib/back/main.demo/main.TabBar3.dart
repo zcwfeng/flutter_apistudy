@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
-import '../utils/NetUtil.dart';
-import '../data/entity.dart';
+import '../../utils/NetUtil.dart';
+import '../../data/entity.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {

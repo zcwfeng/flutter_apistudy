@@ -41,10 +41,23 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    signingConfigs{
+        david{
+            keyAlias 'zcwfeng'
+            keyPassword '123456'
+            storeFile rootProject.file('../zcwfeng.jks')
+            storePassword '123456'
+        }
+    }
+
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
+//            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.david
+        }
+        debug{
             signingConfig signingConfigs.debug
         }
     }
@@ -55,7 +68,32 @@ flutter {
 }
 
 dependencies {
+//    def lifecycle_version = "2.2.0"
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+//    implementation "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
 }
+
+// 天气预报库导致异常
+//configurations.all {
+//    resolutionStrategy {
+//        resolutionStrategy.eachDependency { details ->
+//            if (details.requested.group == 'androidx.core') {
+//                details.useVersion "1.0.2"
+//            }
+//            if (details.requested.group == 'androidx.lifecycle') {
+//                details.useVersion "2.0.0"
+//            }
+//            if (details.requested.group == 'androidx.versionedparcelable') {
+//                details.useVersion "1.0.0"
+//            }
+//            if (details.requested.group == 'androidx.fragment') {
+//                details.useVersion "1.0.0"
+//            }
+//            if (details.requested.group == 'androidx.appcompat') {
+//                details.useVersion "1.0.1"
+//            }
+//        }
+//    }
+//}
